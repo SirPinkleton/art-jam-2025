@@ -1,7 +1,21 @@
+git repo where these files are hosted: https://github.com/SirPinkleton/art-jam-2025
+
+References:
+iowa map used for reference: https://www.urbandale.org/DocumentCenter/View/1310/City-Map-PDF
+stock photos: pngtree.com
+Hyper Link by EX-LYD & Sunnexo (https://www.youtube.com/watch?v=YsQL4g57wlY) (https://sunnexo.bandcamp.com/album/hyper-link)
+
+Tools:
+Krita for making the art/animation
+ShotCut for compiling images into a video
+MyMap, for use in creating the reference in the intro
+
+Tutorials:
 Audacity help with vader voice: https://www.youtube.com/watch?v=1bHaIHqQ_BE
 
 Voice Actors:
 TBD
 
-RobbyDude for hosting this art jam!
-all the participants for giving good suggestions!
+Other Thanks:
+Thanks RobbyDude for hosting this art jam!
+Thanks all the participants for giving good suggestions/participating in the art jam discord discussions!
