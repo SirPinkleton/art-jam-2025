@@ -1,0 +1,29 @@
+Technical stuff at the top:
+1) I'm willing to use any audio file, but I strongly recommend recording using Audacity. It's free and relatively simple to use, though I can help if you get caught up on anything. This can be a single large file if you record everything together (I can cut it up myself), or if you have separate files for each line that also is fine.
+2) I have lines prepared, but if you feel inspired, feel free to rephrase/reword something I've written. What matters the most is that the lines are emotionally resonant with the context of when they're delivered, not so much the specific phrasing. But also I did put some thought into the lines as they are, so feel free to keep them as-is.
+3) This is my first time doing this, so I don't know how this normally is orchestrated, but I figure I'd ask for maybe 3 takes per lines (or more if you're motivated)? I suppose normally we'd be in the same place, like in a recording booth, so we could talk over each read live about what feels best, rather than you delivering to the void without much context. So we could get into a call about it. Lemme know if you have a preference, but honestly I'm not gonna be too picky, I think anything you send me will be fine, I just like to be thorough :]
+
+Relevant plot context so you know generally how the lines fit into the animation: 
+Bingo, Aurora, Junior, and Yogurt are a team of players in a God Game Tournament.
+intro (voiced by Dell-Vin) explains how this is the penultimate episode: The group has made it far, but are backed into a corner.
+Junior activates a powerful but dangerous ability, which helps a lot but also almost ends them. Yogurt intercedes in order to save them from destroying themselves.
+Altogether, the group works to fight the overwhelming odds and successfully make their way to the doorstep of the final boss.
+
+Bingo specific characterization notes:
+I kinda view Bingo as a feral accountant. Like they're nervous and jittery, but has just enough co-ordination to be inexplicably really, really good with numbers. A scared chihuahua with one of those green vegas dealer visors. Anyway, I kind of imagine them as joining the crew late, they're a proper member but they got incarceration and debts plaguing their mind.
+God Game has some combinations of effects that essentially gives a player infinite money, or a lot of it at least. I figure Bingo has managed this, but doesn't really have anything else going on (isn't a big fighter, or even support, beyond his funds). But also, they've managed to pick up a shield, where instead of taking damage they lose money, which combo's well with them having lots of money (and also is helpful for helping them feel less scared).
+
+Specific lines (context in parentheticals, specific line follows in double-quotes, scenes separated by a line):
+
+(Bingo, along with the rest of the crew, is surrounded by an overwhelming force, re-re-recounting their money while looking over their shoulder, their voice is strained. The team is weighing their options, and are nervous.)
+"4-467, 473, or, no no, 472, 477--"
+
+-----------------------------------------------------
+
+(After Yogurt has saved Junior from themselves, Junior is thrust back into the fray, carrying lots and lots of momentum. They use Bingo as a sort of surfboard/shield, using their body to deflect attacks and slide across the floor)
+*various grunts of impacting the ground, any foley work if you can think of anything, can throw in an "Oh god-" or something in there as well*
+
+-----------------------------------------------------
+
+(After Yogurt, Junior, Aurora, and Bingo have made it to the bottom of a stairway leading up to the final boss, having defeated everyone else in their fight)
+*pained groan, maybe mention "m-my coins...."

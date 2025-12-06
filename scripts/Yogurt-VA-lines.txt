@@ -1,0 +1,37 @@
+Technical stuff at the top:
+1) I'm willing to use any audio file, but I strongly recommend recording using Audacity. It's free and relatively simple to use, though I can help if you get caught up on anything. This can be a single large file if you record everything together (I can cut it up myself), or if you have separate files for each line that also is fine.
+2) I have lines prepared, but if you feel inspired, feel free to rephrase/reword something I've written. What matters the most is that the lines are emotionally resonant with the context of when they're delivered, not so much the specific phrasing. But also I did put some thought into the lines as they are, so feel free to keep them as-is.
+3) This is my first time doing this, so I don't know how this normally is orchestrated, but I figure I'd ask for maybe 3 takes per lines (or more if you're motivated)? I suppose normally we'd be in the same place, like in a recording booth, so we could talk over each read live about what feels best, rather than you delivering to the void without much context. So we could get into a call about it. Lemme know if you have a preference, but honestly I'm not gonna be too picky, I think anything you send me will be fine, I just like to be thorough :]
+
+Relevant plot context so you know generally how the lines fit into the animation: 
+Bingo, Aurora, Junior, and Yogurt are a team of players in a God Game Tournament.
+intro (voiced by Dell-Vin) explains how this is the penultimate episode: The group has made it far, but are backed into a corner.
+Junior activates a powerful but dangerous ability, which helps a lot but also almost ends them. Yogurt intercedes in order to save them from destroying themselves.
+Altogether, the group works to fight the overwhelming odds and successfully make their way to the doorstep of the final boss.
+
+Yogurt specific characterization notes:
+Yogurt is mostly a support role: They make enemies fall asleep, or get other status effects, or buff their allies, aren't too imposing by themselves.
+Yogurt is the emotional core of the group, the solid rock that everyone else hangs off of: Even now when things look their worst, Yogurt is chipper, or at least chill. So, they probably sound kinda like a smooth talker? The lines were wrotten mostly with this in mind, but that means it involves slang and such, which itself has a lot of variance. Which is to say, Yogurt in particular has a lot of flexibility in how they speak.
+They are the most like a cartoon character out of the group, maybe have a little bit of that fae-weirdness about them? so maybe more higher pitched. I admit I sorta think of Buggle when I think of Yogurt, but don't let that stop you from making the voice your own.
+
+Specific lines (context in parentheticals, specific line follows in double-quotes, scenes separated by a line):
+
+(Yogurt, along with the rest of the crew, is surrounded by an overwhelming force. Yogurt is their usual confident self, unphased, though the rest of the crew is weighing their options and are nervous.)
+"This ain't how I thought this'd go, but ain't that how it always is?"
+
+-----------------------------------------------------
+
+(Yogurt notices that Junior has pulled out a card.... it's a card that puts a character into a frenzy! they've have multiplicative damage, but they'll not be able to stop, which will put Junior into extreme danger! Yogurt reaches out, trying to stop Junior)
+"JUNIOR, WAIT!!!"
+
+-----------------------------------------------------
+
+(Junior has used the card, and is flying at high speeds towards the enemy, slashing them down. Junior, Auroura, and Bingo are running to catch up. Aurora has just asked Yogurt "Yogurt, what's going on? I thought we were losing???", right before Yogurt sees Junior get harmed but continue fighting anyway, seemingly ignoring the pain)
+"Junior's the one we're losing..."
+(Yogurt gets a new idea, then turns from their inner reflection towards Aurora)
+"Aurora, I got an idea, I'll need some of your item cards!"
+
+-----------------------------------------------------
+
+(Yogurt has caught up with Junior, and has used an item card to teleport them both high into the atmosphere, to literally cool Junior off. After falling towards the earth for a bit and enjoying the view, Yogurt skydives closer to Junior, and places a hand on their shoulder, re-assuring them as they're falling.)
+"Some fancy fightin', vades, but we gotta get through this togetha, as a team. Take a deep breath."

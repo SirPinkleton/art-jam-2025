@@ -1,0 +1,46 @@
+Technical stuff at the top:
+1) I'm willing to use any audio file, but I strongly recommend recording using Audacity. It's free and relatively simple to use, though I can help if you get caught up on anything. This can be a single large file if you record everything together (I can cut it up myself), or if you have separate files for each line that also is fine.
+2) I have lines prepared, but if you feel inspired, feel free to rephrase/reword something I've written. What matters the most is that the lines are emotionally resonant with the context of when they're delivered, not so much the specific phrasing. But also I did put some thought into the lines as they are, so feel free to keep them as-is.
+3) This is my first time doing this, so I don't know how this normally is orchestrated, but I figure I'd ask for maybe 3 takes per lines (or more if you're motivated)? I suppose normally we'd be in the same place, like in a recording booth, so we could talk over each read live about what feels best, rather than you delivering to the void without much context. So we could get into a call about it. Lemme know if you have a preference, but honestly I'm not gonna be too picky, I think anything you send me will be fine, I just like to be thorough :]
+
+Relevant plot context so you know generally how the lines fit into the animation: 
+Bingo, Aurora, Junior, and Yogurt are a team of players in a God Game Tournament.
+intro (voiced by Dell-Vin) explains how this is the penultimate episode: The group has made it far, but are backed into a corner.
+Junior activates a powerful but dangerous ability, which helps a lot but also almost ends them. Yogurt intercedes in order to save them from destroying themselves.
+Altogether, the group works to fight the overwhelming odds and successfully make their way to the doorstep of the final boss.
+
+Dell-Vin specific characterization notes:
+Not much, they're a butler so they have maybe a more nasally voice, a little? Uses fancier/longer words as they talk? You also could just do a more announcer type voice, I'm thinking like the one from pokemon stadium. This role definitely has the most flexibility.
+Otherwise, I'm not yet actually sold on whether this animation is going to play like an anime, so the narrator is more meta, "Will our heroes survive this next encounter?" or more diagetic/in-universe, like "Ladies and gentlemen, the tournament's really heating up!". In reflection of this, some lines have 2 versions, which will be indicated such. Which one gets used I think will depend on which one ends up sounding the most interesting (no pressure! I think it would work well enough either way, feel free to stick to the one you think sounds best).
+
+Specific lines (context in parentheticals, specific line follows in double-quotes, scenes separated by a line):
+
+(The very first image of the video, some sort of godgame tournament title graphic. This is followed quickly by an image of a map, showing a dotted line that grows, until it ends in an X, which is specifically where the animation is going to take place)
+"Welcome back viewers, to the the first inaugeral god game city tournament!!! It's been a long journey, but we're coming upon this competitions zenith!"
+#### Alternative: "Welcome back, to God Game! Our hero's have fought long and hard to get here, and the end of their journey is well within sight!"
+
+-----------------------------------------------------
+
+(From prior scene, this voice line leads immediately into a depiction of dastardly looking foes that, nevertheless, have binkies and bibs)
+"Here, at the 11th hour, a group of players have solidified their advantage. Introducing: the kindergarteners."
+
+-----------------------------------------------------
+
+(From prior scene, a tool-tip like graphic appears, as though Dell-Vin is starting a powerpoint presentation to give a visual as they give context)
+"Normally, tournament participants must agree to a match before damage can be dealt to each other."
+
+(Following lines are from the same tool-tip explanation, with various images aligning with the spoken description)
+"This group has the special ability to start a match with a hug..." *insert aww sound effect*
+"...which they abuse to gain a pre-emptive strike!" *insert gasp sound effect*
+"They are, at least, just as vulnerable to these pre-emptive strikes, so this ability was judged to be within the rules."
+
+-----------------------------------------------------
+
+(From prior scene, viewing over the shoulder of one of these dastardly looking foes as they reveal an item card, which has received modification to be even more deadly than ever)
+"Anyone so far who hasn't been forced to join the group, has been felled."
+
+-----------------------------------------------------
+
+(A wide shot, showing the 4 protagonists surrounded on all sides by more shadowy figures and some deployed basic/skilled characters. The screen slowly zooms in on our main characters. Tensions are high, and either side could make the first move...)
+"We join now to the last remaining holdouts, but it's not looking good for them..."
+#### Alternative:  "Will our heroes prevail to the very end? It might depend upon the actions of just one of them..."
