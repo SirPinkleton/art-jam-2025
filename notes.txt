@@ -22,8 +22,12 @@ Tutorials:
 Audacity help with vader voice: https://www.youtube.com/watch?v=1bHaIHqQ_BE
 
 Voice Actors:
-Aurora - Laserdream
+Aurora - Laserdream (https://laserdream.nekoweb.org/)
 Zora "Morph" Morphimus - Zora "Morph" Morphimus
+Bingo - Minterim
+Junior - RioBlitzle (https://bsky.app/profile/rioblitzle.bsky.social)
+Yogurt - nonexistentPumpkin
+Dell-Vin (Narrator) - Teashades
 
 Other Thanks:
 Thanks RobbyDude for hosting this art jam!
@@ -31,8 +35,8 @@ Thanks all the participants for giving good suggestions/participating in the art
 
 
 RNDEBUG todo: 
-* make sure bracelets for junior are present when they should
-* make sure yogurts hand tufts are present
+* make sure braceletsand socks for junior are present when they should
+* make sure yogurts hand tufts, feet grey spots, hand windows, are present
 * make sure all character cards have a colored outline
 * make sure yogurt's colors are specifically burgundy and forest green
 * add more frames of yogurt slapping jigglypuff's card onto the ground
