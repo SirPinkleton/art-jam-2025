@@ -1,8 +1,790 @@
 <?xml version="1.0" standalone="no"?>
-<mlt LC_NUMERIC="C" version="7.30.0" title="Shotcut version 25.01.25" producer="playlist0">
+<mlt LC_NUMERIC="C" version="7.30.0" title="Shotcut version 25.01.25" producer="main_bin">
   <profile description="PAL 4:3 DV or DVD" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="24" frame_rate_den="1" colorspace="709"/>
-  <playlist id="playlist0" title="Shotcut version 25.01.25">
+  <playlist id="main_bin" title="Shotcut version 25.01.25">
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">0</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="xml_retain">1</property>
   </playlist>
+  <producer id="black" in="00:00:00.000" out="00:01:53.167">
+    <property name="length">00:01:53.208</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:01:53.167"/>
+  </playlist>
+  <producer id="producer0" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/1intro-map.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T00:52:34</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">a9bc364f5fde4eb5f8f7be9f279e2056</property>
+    <property name="shotcut:caption">1intro-map.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter0" out="00:00:04.083">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fix_rotate_x">00:00:00.000=0;00:00:04.083=0</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">00:00:00.000=-2092.3 89.7988 5185.92 2917.08 1;00:00:04.083=0 0 1920 1080 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:04.125</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <chain id="chain0" out="00:00:08.000">
+    <property name="length">00:00:08.042</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/1intro-map.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">24</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.width">1920</property>
+    <property name="meta.media.0.codec.height">1080</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.colorspace">709</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">0</property>
+    <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 libopenh264</property>
+    <property name="meta.attr.0.stream.DURATION.markup">00:00:08.042000000</property>
+    <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2025-12-13T23:05:55</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">24</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">709</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">mpeg</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">ab5380c562fce63c03186c14e0e8871b</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="shotcut:caption">1intro-map.mkv</property>
+    <property name="xml">was here</property>
+  </chain>
+  <producer id="producer1" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/1intro-map-filled.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T01:03:01</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">8ba87228fc62636499a50af455a9db7c</property>
+    <property name="shotcut:caption">1intro-map-filled.png</property>
+  </producer>
+  <producer id="producer2" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/1intro-map-tension.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T00:59:28</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">a8f2abc4378423fa261235e3aeecb85c</property>
+    <property name="shotcut:caption">1intro-map-tension.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter1" out="00:00:02.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fix_rotate_x">00:00:00.000=0;00:00:01.958=0</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">00:00:00.000=0 0 1920 1080 1;00:00:01.958=-191.378 -76.9813 4097.28 2304.72 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:02.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer3" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/2kindergarteners-explanation1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T06:12:07</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">618063b3fd2d8151fe29f3c3850e9d1a</property>
+    <property name="shotcut:caption">2kindergarteners-explanation1.png</property>
+  </producer>
+  <producer id="producer4" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/2kindergarteners-explanation2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T06:12:17</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">00ec6ef372a4fe9f1dc6de414aa877bb</property>
+    <property name="shotcut:caption">2kindergarteners-explanation2.png</property>
+  </producer>
+  <producer id="producer5" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/2kindergarteners-explanation3.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T06:12:36</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">a66cd716218db17ef6f0d28ea0137fb2</property>
+    <property name="shotcut:caption">2kindergarteners-explanation3.png</property>
+  </producer>
+  <producer id="producer6" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/2kindergarteners-explanation4.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T06:12:51</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">b115c6c5d34d844a94a867b2178d0f5c</property>
+    <property name="shotcut:caption">2kindergarteners-explanation4.png</property>
+  </producer>
+  <producer id="producer7" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/2kindergarteners-explanation5.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T06:13:03</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">6bdde5e959252676404b9579d613200e</property>
+    <property name="shotcut:caption">2kindergarteners-explanation5.png</property>
+  </producer>
+  <chain id="chain1" out="00:00:08.958">
+    <property name="length">00:00:09.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/2kindergarteners-explanation.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">24</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.width">1920</property>
+    <property name="meta.media.0.codec.height">1080</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.colorspace">709</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">0</property>
+    <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 libopenh264</property>
+    <property name="meta.attr.0.stream.DURATION.markup">00:00:09.000000000</property>
+    <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2025-12-13T23:24:49</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">24</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">709</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">mpeg</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">902f3618dfffe40381f3ae32f9f8519c</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="shotcut:caption">2kindergarteners-explanation.mkv</property>
+    <property name="xml">was here</property>
+  </chain>
+  <producer id="producer8" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/2kindergarteners-explanation6.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T06:13:22</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">850644ede444de81a9fad017982673aa</property>
+    <property name="shotcut:caption">2kindergarteners-explanation6.png</property>
+  </producer>
+  <producer id="producer9" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/2kindergarteners-explanation7.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T06:13:39</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">90bdfeb5f0cd8f61ed595d28e19326ce</property>
+    <property name="shotcut:caption">2kindergarteners-explanation7.png</property>
+  </producer>
+  <producer id="producer10" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/2kindergarteners-explanation8.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T06:13:55</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">b5c2547ece8181ce75f9b724eb9d8ded</property>
+    <property name="shotcut:caption">2kindergarteners-explanation8.png</property>
+  </producer>
+  <producer id="producer11" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/3.0character-intros.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-13T23:25:40</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">7e9278c389f4cf0ebf12a715d7eb2dc2</property>
+    <property name="shotcut:caption">3.0character-intros.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter2" out="00:00:03.958">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fix_rotate_x">00:00:00.000=0;00:00:03.917=0</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">00:00:00.000=0 0 1920 1080 1;00:00:03.917=-1390.2 -1393.11 4865.28 2736.72 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:03.958</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer12" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/3.1character-intros-aurora.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T06:19:18</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">ab5c556875d30b50c963f1fa7a578bd3</property>
+    <property name="shotcut:caption">3.1character-intros-aurora.png</property>
+  </producer>
+  <producer id="producer13" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/3.1character-intros-yogurt.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T06:19:50</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">8e3c6a37dd814f7c35de0ae55d1fa15e</property>
+    <property name="shotcut:caption">3.1character-intros-yogurt.png</property>
+  </producer>
+  <producer id="producer14" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/3.1character-intros-bingo.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T06:20:21</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">025cb9416271ee8e2330182b7cfe9d63</property>
+    <property name="shotcut:caption">3.1character-intros-bingo.png</property>
+  </producer>
+  <producer id="producer15" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/3.1character-intros-junior.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T06:20:50</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">78c947e41165415f3484ba5a5a87f4c9</property>
+    <property name="shotcut:caption">3.1character-intros-junior.png</property>
+  </producer>
+  <producer id="producer16" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/4junior-contemplation1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T06:21:46</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">23a2e7414c64a55cf6911f8a9d744e62</property>
+    <property name="shotcut:caption">4junior-contemplation1.png</property>
+  </producer>
+  <producer id="producer17" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/4junior-contemplation2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T06:22:49</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">c7f8586e5bf60c6841ed51e6fd317612</property>
+    <property name="shotcut:caption">4junior-contemplation2.png</property>
+  </producer>
+  <producer id="producer18" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/4junior-contemplation3.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T06:23:21</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">336904b6b2889893df0058555fd7b380</property>
+    <property name="shotcut:caption">4junior-contemplation3.png</property>
+  </producer>
+  <producer id="producer19" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/4junior-contemplation4.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T06:23:49</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">902c0c3ea4e8c1df7f1adaf177616c4e</property>
+    <property name="shotcut:caption">4junior-contemplation4.png</property>
+  </producer>
+  <producer id="producer20" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/4junior-contemplation5.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T06:24:45</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">821aacc315ab468a3541e6b23169ff8e</property>
+    <property name="shotcut:caption">4junior-contemplation5.png</property>
+  </producer>
+  <chain id="chain2" out="00:00:09.833">
+    <property name="length">00:00:09.875</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/4junior-contemplation.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">24</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.width">1920</property>
+    <property name="meta.media.0.codec.height">1080</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.colorspace">709</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">0</property>
+    <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 libopenh264</property>
+    <property name="meta.attr.0.stream.DURATION.markup">00:00:09.875000000</property>
+    <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2025-12-14T06:25:24</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">24</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">709</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">mpeg</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">8ef12587331efacc98213bd1da96be3a</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="shotcut:caption">4junior-contemplation.mkv</property>
+    <property name="xml">was here</property>
+  </chain>
+  <producer id="producer21" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/4junior-contemplation6.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T06:26:40</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">6296e055dc1cdcc70f8dc84983a7645a</property>
+    <property name="shotcut:caption">4junior-contemplation6.png</property>
+  </producer>
+  <chain id="chain3" out="00:00:09.833">
+    <property name="length">00:00:09.875</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/4junior-contemplation.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">24</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.width">1920</property>
+    <property name="meta.media.0.codec.height">1080</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.colorspace">709</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">0</property>
+    <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 libopenh264</property>
+    <property name="meta.attr.0.stream.DURATION.markup">00:00:09.875000000</property>
+    <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2025-12-14T06:25:24</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">24</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">709</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">mpeg</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">8ef12587331efacc98213bd1da96be3a</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="shotcut:caption">4junior-contemplation.mkv</property>
+    <property name="xml">was here</property>
+  </chain>
+  <producer id="producer22" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/4junior-contemplation7.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T06:28:38</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">279c7110e7a3ac90d08a9e5edcd08221</property>
+    <property name="shotcut:caption">4junior-contemplation7.png</property>
+  </producer>
+  <producer id="producer23" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/4junior-contemplation8.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T06:29:19</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">67ccb59408ca00bfb70429e803f35117</property>
+    <property name="shotcut:caption">4junior-contemplation8.png</property>
+  </producer>
+  <producer id="producer24" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/4junior-contemplation9.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T06:30:02</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">87ed81ef483dfa1be5ff686b303b3922</property>
+    <property name="shotcut:caption">4junior-contemplation9.png</property>
+  </producer>
+  <chain id="chain4" out="00:00:14.583">
+    <property name="length">00:00:14.625</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/4junior-contemplation.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">24</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.width">1920</property>
+    <property name="meta.media.0.codec.height">1080</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.colorspace">709</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">0</property>
+    <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 libopenh264</property>
+    <property name="meta.attr.0.stream.DURATION.markup">00:00:14.625000000</property>
+    <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2025-12-14T06:46:05</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">24</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">709</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">mpeg</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">db0e688d346ce7cb1a0022d81bd4f215</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="shotcut:caption">4junior-contemplation.mkv</property>
+    <property name="xml">was here</property>
+  </chain>
+  <producer id="producer25" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/4junior-contemplation9.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T06:30:02</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">87ed81ef483dfa1be5ff686b303b3922</property>
+    <property name="shotcut:caption">4junior-contemplation9.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:00:04.083"/>
+    <entry producer="chain0" in="00:00:00.583" out="00:00:06.875"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:03.958"/>
+    <entry producer="producer2" in="00:00:00.000" out="00:00:02.042"/>
+    <entry producer="producer3" in="00:00:00.000" out="00:00:03.958"/>
+    <entry producer="producer4" in="00:00:00.000" out="00:00:03.958"/>
+    <entry producer="producer5" in="00:00:00.000" out="00:00:03.958"/>
+    <entry producer="producer6" in="00:00:00.000" out="00:00:03.958"/>
+    <entry producer="producer7" in="00:00:00.000" out="00:00:03.958"/>
+    <entry producer="chain1" in="00:00:05.000" out="00:00:05.917"/>
+    <entry producer="producer8" in="00:00:00.000" out="00:00:03.958"/>
+    <entry producer="producer9" in="00:00:00.000" out="00:00:03.958"/>
+    <entry producer="producer10" in="00:00:00.000" out="00:00:03.958"/>
+    <entry producer="producer11" in="00:00:00.000" out="00:00:03.958"/>
+    <entry producer="producer12" in="00:00:00.000" out="00:00:03.958"/>
+    <entry producer="producer13" in="00:00:00.000" out="00:00:03.958"/>
+    <entry producer="producer14" in="00:00:00.000" out="00:00:03.958"/>
+    <entry producer="producer15" in="00:00:00.000" out="00:00:03.958"/>
+    <entry producer="producer16" in="00:00:00.000" out="00:00:03.958"/>
+    <entry producer="producer17" in="00:00:00.000" out="00:00:03.958"/>
+    <entry producer="producer18" in="00:00:00.000" out="00:00:03.958"/>
+    <entry producer="producer19" in="00:00:00.000" out="00:00:03.958"/>
+    <entry producer="producer20" in="00:00:00.000" out="00:00:03.958"/>
+    <entry producer="chain2" in="00:00:04.625" out="00:00:05.292"/>
+    <entry producer="producer21" in="00:00:00.000" out="00:00:03.958"/>
+    <entry producer="chain3" in="00:00:06.458" out="00:00:07.417"/>
+    <entry producer="producer22" in="00:00:00.000" out="00:00:03.958"/>
+    <entry producer="producer23" in="00:00:00.000" out="00:00:03.958"/>
+    <entry producer="producer24" in="00:00:00.000" out="00:00:03.958"/>
+    <entry producer="chain4" in="00:00:09.500" out="00:00:11.458"/>
+    <entry producer="producer25" in="00:00:00.000" out="00:00:03.958"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 25.01.25" in="00:00:00.000" out="00:01:53.167">
+    <property name="shotcut">1</property>
+    <property name="shotcut:scaleFactor">2.99598</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <property name="shotcut:skipConvert">0</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+  </tractor>
 </mlt>

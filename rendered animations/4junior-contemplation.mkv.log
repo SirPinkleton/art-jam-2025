@@ -1,0 +1,20 @@
+C:/Program Files/Krita (x64)/bin/ffmpeg.exe -hide_banner -y -y -r 24 -start_number 0 -start_number_range 1 -i E:/videos/art-jam-2025/rendered animations/frame%04d.png -c:v libopenh264 -b:v 5000k E:/videos/art-jam-2025/rendered animations/4junior-contemplation.mkv
+=====================================================
+Input #0, image2, from 'E:/videos/art-jam-2025/rendered animations/frame%04d.png':
+  Duration: 00:00:14.04, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgba64be(pc), 1920x1080 [SAR 2834:2834 DAR 16:9], 25 fps, 25 tbr, 25 tbn, 25 tbc
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libopenh264))
+Press [q] to stop, [?] for help
+[libopenh264 @ 000001fb588200c0] Slice count will be set automatically
+[libopenh264 @ 000001fb588200c0] [OpenH264] this = 0x000001FB575CC5D0, Warning:bEnableFrameSkip = 0,bitrate can't be controlled for RC_QUALITY_MODE,RC_BITRATE_MODE and RC_TIMESTAMP_MODE without enabling skip frame.
+Output #0, matroska, to 'E:/videos/art-jam-2025/rendered animations/4junior-contemplation.mkv':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Stream #0:0: Video: h264 (H264 / 0x34363248), yuv420p(tv, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 5000 kb/s, 24 fps, 1k tbn
+    Metadata:
+      encoder         : Lavc58.134.100 libopenh264
+    Side data:
+      cpb: bitrate max/min/avg: 5000000/0/5000000 buffer size: 0 vbv_delay: N/A
+frame=    1 fps=0.0 q=-0.0 size=       1kB time=00:00:00.00 bitrate=4792.0kbits/s speed=0.014x    frame=   11 fps=0.0 q=-0.0 size=       1kB time=00:00:00.41 bitrate=  11.5kbits/s speed=0.707x    frame=   29 fps= 26 q=-0.0 size=       1kB time=00:00:01.16 bitrate=   4.1kbits/s speed=1.05x    frame=   47 fps= 29 q=-0.0 size=       1kB time=00:00:01.91 bitrate=   2.5kbits/s speed=1.17x    frame=   62 fps= 29 q=-0.0 size=     256kB time=00:00:02.54 bitrate= 824.7kbits/s speed=1.19x    frame=   78 fps= 29 q=-0.0 size=     256kB time=00:00:03.20 bitrate= 653.5kbits/s speed=1.21x    frame=   93 fps= 29 q=-0.0 size=     256kB time=00:00:03.83 bitrate= 547.0kbits/s speed=1.21x    frame=  107 fps= 29 q=-0.0 size=     512kB time=00:00:04.41 bitrate= 949.4kbits/s speed=1.19x    frame=  123 fps= 29 q=-0.0 size=     512kB time=00:00:05.08 bitrate= 825.0kbits/s speed=1.21x    frame=  140 fps= 30 q=-0.0 size=     512kB time=00:00:05.79 bitrate= 724.0kbits/s speed=1.23x    frame=  155 fps= 30 q=-0.0 size=     512kB time=00:00:06.41 bitrate= 653.5kbits/s speed=1.23x    frame=  170 fps= 30 q=-0.0 size=     512kB time=00:00:07.04 bitrate= 595.5kbits/s speed=1.23x    frame=  186 fps= 30 q=-0.0 size=     512kB time=00:00:07.70 bitrate= 544.1kbits/s speed=1.23x    frame=  203 fps= 30 q=-0.0 size=    1792kB time=00:00:08.41 bitrate=1743.9kbits/s speed=1.24x    frame=  219 fps= 30 q=-0.0 size=    1792kB time=00:00:09.08 bitrate=1616.0kbits/s speed=1.25x    frame=  236 fps= 30 q=-0.0 size=    1792kB time=00:00:09.79 bitrate=1499.0kbits/s speed=1.26x    frame=  253 fps= 30 q=-0.0 size=    1792kB time=00:00:10.50 bitrate=1398.0kbits/s speed=1.26x    frame=  269 fps= 30 q=-0.0 size=    1792kB time=00:00:11.16 bitrate=1314.5kbits/s speed=1.27x    frame=  285 fps= 31 q=-0.0 size=    1792kB time=00:00:11.83 bitrate=1240.5kbits/s speed=1.27x    frame=  301 fps= 31 q=-0.0 size=    1792kB time=00:00:12.50 bitrate=1174.3kbits/s speed=1.27x    frame=  317 fps= 31 q=-0.0 size=    1792kB time=00:00:13.16 bitrate=1114.8kbits/s speed=1.27x    frame=  334 fps= 31 q=-0.0 size=    2048kB time=00:00:13.87 bitrate=1209.1kbits/s speed=1.28x    frame=  351 fps= 31 q=-0.0 size=    2048kB time=00:00:14.58 bitrate=1150.4kbits/s speed=1.28x    frame=  351 fps= 31 q=-0.0 Lsize=    2263kB time=00:00:14.58 bitrate=1270.9kbits/s speed=1.28x    
+video:2259kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.140384%

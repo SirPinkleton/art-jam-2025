@@ -13,12 +13,15 @@ stock photos: pngtree.com, vecteezy.com, Alamy.com
 Hyper Link by EX-LYD & Sunnexo (https://www.youtube.com/watch?v=YsQL4g57wlY) (https://sunnexo.bandcamp.com/album/hyper-link)
 princess diana, newyorker.com
 Marching band music, Audio and Video Archives (AVA) (https://www.youtube.com/watch?v=dMupLMdIP14)
+pond5.com
+Ableton Live 11 Suite
 
 Tools:
 Krita for making the art/animation
 ShotCut for compiling images into a video
 MyMap, for use in creating the reference in the intro
 4k Video Downloader+
+Audacity
 
 Tutorials:
 Audacity help with vader voice: https://www.youtube.com/watch?v=1bHaIHqQ_BE
@@ -36,7 +39,7 @@ Thanks RobbyDude for hosting this art jam!
 Thanks all the participants for giving good suggestions/participating in the art jam discord discussions!
 
 Secret Details for this video:
-- XX:XX homestuck discourse
+- XX:XX homestuck discourse in the background
 
 RNDEBUG todo: 
 * make sure braceletsand socks for junior are present when they should

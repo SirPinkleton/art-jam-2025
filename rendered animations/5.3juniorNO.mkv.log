@@ -1,0 +1,20 @@
+C:/Program Files/Krita (x64)/bin/ffmpeg.exe -hide_banner -y -y -r 24 -start_number 0 -start_number_range 1 -i E:/videos/art-jam-2025/rendered animations/frame%04d.png -c:v libopenh264 -b:v 5000k E:/videos/art-jam-2025/rendered animations/5.3juniorNO.mkv
+=====================================================
+Input #0, image2, from 'E:/videos/art-jam-2025/rendered animations/frame%04d.png':
+  Duration: 00:00:02.04, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgba64be(pc), 1920x1080 [SAR 2834:2834 DAR 16:9], 25 fps, 25 tbr, 25 tbn, 25 tbc
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libopenh264))
+Press [q] to stop, [?] for help
+[libopenh264 @ 000001dcee732b40] Slice count will be set automatically
+[libopenh264 @ 000001dcee732b40] [OpenH264] this = 0x000001DCEE68BA50, Warning:bEnableFrameSkip = 0,bitrate can't be controlled for RC_QUALITY_MODE,RC_BITRATE_MODE and RC_TIMESTAMP_MODE without enabling skip frame.
+Output #0, matroska, to 'E:/videos/art-jam-2025/rendered animations/5.3juniorNO.mkv':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Stream #0:0: Video: h264 (H264 / 0x34363248), yuv420p(tv, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 5000 kb/s, 24 fps, 1k tbn
+    Metadata:
+      encoder         : Lavc58.134.100 libopenh264
+    Side data:
+      cpb: bitrate max/min/avg: 5000000/0/5000000 buffer size: 0 vbv_delay: N/A
+frame=    1 fps=0.0 q=-0.0 size=       1kB time=00:00:00.00 bitrate=4792.0kbits/s speed=0.0306x    frame=   13 fps=0.0 q=-0.0 size=       1kB time=00:00:00.50 bitrate=   9.6kbits/s speed=0.913x    frame=   30 fps= 28 q=-0.0 size=       1kB time=00:00:01.20 bitrate=   4.0kbits/s speed=1.14x    frame=   48 fps= 30 q=-0.0 size=       1kB time=00:00:01.95 bitrate=   2.4kbits/s speed=1.24x    frame=   51 fps= 30 q=-0.0 Lsize=     432kB time=00:00:02.08 bitrate=1696.6kbits/s speed=1.23x    
+video:431kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.229275%
