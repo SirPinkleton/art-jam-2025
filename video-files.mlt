@@ -7,8 +7,8 @@
     <property name="shotcut:skipConvert">0</property>
     <property name="xml_retain">1</property>
   </playlist>
-  <producer id="black" in="00:00:00.000" out="00:01:53.167">
-    <property name="length">00:01:53.208</property>
+  <producer id="black" in="00:00:00.000" out="00:08:57.500">
+    <property name="length">00:08:57.542</property>
     <property name="eof">pause</property>
     <property name="resource">0</property>
     <property name="aspect_ratio">1</property>
@@ -17,7 +17,7 @@
     <property name="set.test_audio">0</property>
   </producer>
   <playlist id="background">
-    <entry producer="black" in="00:00:00.000" out="00:01:53.167"/>
+    <entry producer="black" in="00:00:00.000" out="00:08:57.500"/>
   </playlist>
   <producer id="producer0" in="00:00:00.000" out="03:59:59.958">
     <property name="length">04:00:00.000</property>
@@ -36,6 +36,7 @@
     <property name="shotcut:hash">a9bc364f5fde4eb5f8f7be9f279e2056</property>
     <property name="shotcut:caption">1intro-map.png</property>
     <property name="meta.shotcut.vui">1</property>
+    <property name="xml">was here</property>
     <filter id="filter0" out="00:00:04.083">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
@@ -111,6 +112,7 @@
     <property name="shotcut:skipConvert">1</property>
     <property name="shotcut:hash">8ba87228fc62636499a50af455a9db7c</property>
     <property name="shotcut:caption">1intro-map-filled.png</property>
+    <property name="xml">was here</property>
   </producer>
   <producer id="producer2" in="00:00:00.000" out="03:59:59.958">
     <property name="length">04:00:00.000</property>
@@ -161,6 +163,7 @@
     <property name="shotcut:skipConvert">1</property>
     <property name="shotcut:hash">618063b3fd2d8151fe29f3c3850e9d1a</property>
     <property name="shotcut:caption">2kindergarteners-explanation1.png</property>
+    <property name="xml">was here</property>
   </producer>
   <producer id="producer4" in="00:00:00.000" out="03:59:59.958">
     <property name="length">04:00:00.000</property>
@@ -178,6 +181,7 @@
     <property name="shotcut:skipConvert">1</property>
     <property name="shotcut:hash">00ec6ef372a4fe9f1dc6de414aa877bb</property>
     <property name="shotcut:caption">2kindergarteners-explanation2.png</property>
+    <property name="xml">was here</property>
   </producer>
   <producer id="producer5" in="00:00:00.000" out="03:59:59.958">
     <property name="length">04:00:00.000</property>
@@ -195,6 +199,7 @@
     <property name="shotcut:skipConvert">1</property>
     <property name="shotcut:hash">a66cd716218db17ef6f0d28ea0137fb2</property>
     <property name="shotcut:caption">2kindergarteners-explanation3.png</property>
+    <property name="xml">was here</property>
   </producer>
   <producer id="producer6" in="00:00:00.000" out="03:59:59.958">
     <property name="length">04:00:00.000</property>
@@ -212,6 +217,7 @@
     <property name="shotcut:skipConvert">1</property>
     <property name="shotcut:hash">b115c6c5d34d844a94a867b2178d0f5c</property>
     <property name="shotcut:caption">2kindergarteners-explanation4.png</property>
+    <property name="xml">was here</property>
   </producer>
   <producer id="producer7" in="00:00:00.000" out="03:59:59.958">
     <property name="length">04:00:00.000</property>
@@ -229,6 +235,7 @@
     <property name="shotcut:skipConvert">1</property>
     <property name="shotcut:hash">6bdde5e959252676404b9579d613200e</property>
     <property name="shotcut:caption">2kindergarteners-explanation5.png</property>
+    <property name="xml">was here</property>
   </producer>
   <chain id="chain1" out="00:00:08.958">
     <property name="length">00:00:09.000</property>
@@ -290,6 +297,7 @@
     <property name="shotcut:skipConvert">1</property>
     <property name="shotcut:hash">850644ede444de81a9fad017982673aa</property>
     <property name="shotcut:caption">2kindergarteners-explanation6.png</property>
+    <property name="xml">was here</property>
   </producer>
   <producer id="producer9" in="00:00:00.000" out="03:59:59.958">
     <property name="length">04:00:00.000</property>
@@ -307,6 +315,7 @@
     <property name="shotcut:skipConvert">1</property>
     <property name="shotcut:hash">90bdfeb5f0cd8f61ed595d28e19326ce</property>
     <property name="shotcut:caption">2kindergarteners-explanation7.png</property>
+    <property name="xml">was here</property>
   </producer>
   <producer id="producer10" in="00:00:00.000" out="03:59:59.958">
     <property name="length">04:00:00.000</property>
@@ -324,6 +333,7 @@
     <property name="shotcut:skipConvert">1</property>
     <property name="shotcut:hash">b5c2547ece8181ce75f9b724eb9d8ded</property>
     <property name="shotcut:caption">2kindergarteners-explanation8.png</property>
+    <property name="xml">was here</property>
   </producer>
   <producer id="producer11" in="00:00:00.000" out="03:59:59.958">
     <property name="length">04:00:00.000</property>
@@ -342,7 +352,8 @@
     <property name="shotcut:hash">7e9278c389f4cf0ebf12a715d7eb2dc2</property>
     <property name="shotcut:caption">3.0character-intros.png</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter2" out="00:00:03.958">
+    <property name="xml">was here</property>
+    <filter id="filter2" out="00:00:03.917">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -360,7 +371,7 @@
   <producer id="producer12" in="00:00:00.000" out="03:59:59.958">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">rendered animations/3.1character-intros-aurora.png</property>
+    <property name="resource">rendered animations/3.1character-intros-aurora0.png</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="meta.media.progressive">1</property>
@@ -369,15 +380,16 @@
     <property name="meta.media.width">1920</property>
     <property name="meta.media.height">1080</property>
     <property name="mlt_service">qimage</property>
-    <property name="creation_time">2025-12-14T06:19:18</property>
+    <property name="creation_time">2025-12-14T19:22:00</property>
     <property name="shotcut:skipConvert">1</property>
-    <property name="shotcut:hash">ab5c556875d30b50c963f1fa7a578bd3</property>
-    <property name="shotcut:caption">3.1character-intros-aurora.png</property>
+    <property name="shotcut:hash">7a1c0646d352747597aaa52efea03a03</property>
+    <property name="shotcut:caption">3.1character-intros-aurora0.png</property>
+    <property name="xml">was here</property>
   </producer>
   <producer id="producer13" in="00:00:00.000" out="03:59:59.958">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">rendered animations/3.1character-intros-yogurt.png</property>
+    <property name="resource">rendered animations/3.1character-intros-aurora1.png</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="meta.media.progressive">1</property>
@@ -386,15 +398,16 @@
     <property name="meta.media.width">1920</property>
     <property name="meta.media.height">1080</property>
     <property name="mlt_service">qimage</property>
-    <property name="creation_time">2025-12-14T06:19:50</property>
+    <property name="creation_time">2025-12-14T19:22:12</property>
     <property name="shotcut:skipConvert">1</property>
-    <property name="shotcut:hash">8e3c6a37dd814f7c35de0ae55d1fa15e</property>
-    <property name="shotcut:caption">3.1character-intros-yogurt.png</property>
+    <property name="shotcut:hash">38d97f3414b3a2f225a061345f13ec68</property>
+    <property name="shotcut:caption">3.1character-intros-aurora1.png</property>
+    <property name="xml">was here</property>
   </producer>
   <producer id="producer14" in="00:00:00.000" out="03:59:59.958">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">rendered animations/3.1character-intros-bingo.png</property>
+    <property name="resource">rendered animations/3.1character-intros-aurora2.png</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="meta.media.progressive">1</property>
@@ -403,15 +416,16 @@
     <property name="meta.media.width">1920</property>
     <property name="meta.media.height">1080</property>
     <property name="mlt_service">qimage</property>
-    <property name="creation_time">2025-12-14T06:20:21</property>
+    <property name="creation_time">2025-12-14T19:22:24</property>
     <property name="shotcut:skipConvert">1</property>
-    <property name="shotcut:hash">025cb9416271ee8e2330182b7cfe9d63</property>
-    <property name="shotcut:caption">3.1character-intros-bingo.png</property>
+    <property name="shotcut:hash">6a97d440b4314e359c8845243fe558e7</property>
+    <property name="shotcut:caption">3.1character-intros-aurora2.png</property>
+    <property name="xml">was here</property>
   </producer>
   <producer id="producer15" in="00:00:00.000" out="03:59:59.958">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">rendered animations/3.1character-intros-junior.png</property>
+    <property name="resource">rendered animations/3.1character-intros-aurora3.png</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="meta.media.progressive">1</property>
@@ -420,12 +434,373 @@
     <property name="meta.media.width">1920</property>
     <property name="meta.media.height">1080</property>
     <property name="mlt_service">qimage</property>
-    <property name="creation_time">2025-12-14T06:20:50</property>
+    <property name="creation_time">2025-12-14T19:22:43</property>
     <property name="shotcut:skipConvert">1</property>
-    <property name="shotcut:hash">78c947e41165415f3484ba5a5a87f4c9</property>
-    <property name="shotcut:caption">3.1character-intros-junior.png</property>
+    <property name="shotcut:hash">976e951807368eb7c913ff39e83fe286</property>
+    <property name="shotcut:caption">3.1character-intros-aurora3.png</property>
+    <property name="xml">was here</property>
   </producer>
   <producer id="producer16" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/3.1character-intros-aurora4.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T19:22:54</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">d2a27904ab59317a2d4c35fe9d0060b0</property>
+    <property name="shotcut:caption">3.1character-intros-aurora4.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer17" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/3.1character-intros-yogurt0.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T19:26:25</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">6a59a34b8c797667e98ebc54f5d80eca</property>
+    <property name="shotcut:caption">3.1character-intros-yogurt0.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer18" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/3.1character-intros-yogurt1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T19:26:33</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">330775927725a5ae20877bc296a21981</property>
+    <property name="shotcut:caption">3.1character-intros-yogurt1.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer19" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/3.1character-intros-yogurt2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T19:26:43</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">dc39ec7c9b2a87b0e1fc5dc9b6b7abac</property>
+    <property name="shotcut:caption">3.1character-intros-yogurt2.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer20" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/3.1character-intros-yogurt3.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T19:26:54</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">f395226cd0bca22fc54ebc18b82d7171</property>
+    <property name="shotcut:caption">3.1character-intros-yogurt3.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer21" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/3.1character-intros-yogurt4.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T19:27:04</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">8e3c6a37dd814f7c35de0ae55d1fa15e</property>
+    <property name="shotcut:caption">3.1character-intros-yogurt4.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer22" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/3.1character-intros-bingo0.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T19:37:39</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">e3941b896b0fc2dbad192be323028b9d</property>
+    <property name="shotcut:caption">3.1character-intros-bingo0.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer23" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/3.1character-intros-bingo1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T19:39:10</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">5b8a79f5451202695c806a19a079b399</property>
+    <property name="shotcut:caption">3.1character-intros-bingo1.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer24" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/3.1character-intros-bingo2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T19:39:20</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">8b2465f7ae333f7caaffaffd8220a6bf</property>
+    <property name="shotcut:caption">3.1character-intros-bingo2.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer25" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/3.1character-intros-bingo3.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T19:39:40</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">23ac19bd7fcdd78e326dcee1209d6652</property>
+    <property name="shotcut:caption">3.1character-intros-bingo3.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer26" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/3.1character-intros-bingo4.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T19:39:54</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">9393f4a58d3e126504c788fedd7696e2</property>
+    <property name="shotcut:caption">3.1character-intros-bingo4.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer27" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/3.1character-intros-bingo5.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T19:40:04</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">7ee9124b8557f7280dc13f5b324e195c</property>
+    <property name="shotcut:caption">3.1character-intros-bingo5.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer28" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/3.1character-intros-bingo6.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T19:40:14</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">0aa0dcbcede094a4eb6a101d02979490</property>
+    <property name="shotcut:caption">3.1character-intros-bingo6.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer29" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/3.1character-intros-bingocheese.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T19:45:28</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">5140a1d1577aee2721127ac98c8b6fc8</property>
+    <property name="shotcut:caption">3.1character-intros-bingocheese.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer30" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/3.1character-intros-bingo7.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T19:40:40</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">d0780e9318e259b64e611abc1525ca13</property>
+    <property name="shotcut:caption">3.1character-intros-bingo7.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer31" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/3.1character-intros-bingo8.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T19:41:17</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">9ffc8943f9644fb87ebaad0390fbfa54</property>
+    <property name="shotcut:caption">3.1character-intros-bingo8.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer32" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/3.1character-intros-junior0.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T19:55:54</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">a0f7c850a0515a8b683567a42d22ab78</property>
+    <property name="shotcut:caption">3.1character-intros-junior0.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer33" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/3.1character-intros-junior1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T19:56:06</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">b69094bc516361050cb49151ebd6606e</property>
+    <property name="shotcut:caption">3.1character-intros-junior1.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer34" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/3.1character-intros-junior2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T21:00:49</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">94dc3ae9f7ff4b50ee7a8aa33bf8e6d8</property>
+    <property name="shotcut:caption">3.1character-intros-junior2.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer35" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/3.1character-intros-junior3.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T21:01:08</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">269f7f27999b3a399f90550595394713</property>
+    <property name="shotcut:caption">3.1character-intros-junior3.png</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer36" in="00:00:00.000" out="03:59:59.958">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">rendered animations/4junior-contemplation1.png</property>
@@ -441,8 +816,9 @@
     <property name="shotcut:skipConvert">1</property>
     <property name="shotcut:hash">23a2e7414c64a55cf6911f8a9d744e62</property>
     <property name="shotcut:caption">4junior-contemplation1.png</property>
+    <property name="xml">was here</property>
   </producer>
-  <producer id="producer17" in="00:00:00.000" out="03:59:59.958">
+  <producer id="producer37" in="00:00:00.000" out="03:59:59.958">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">rendered animations/4junior-contemplation2.png</property>
@@ -458,8 +834,9 @@
     <property name="shotcut:skipConvert">1</property>
     <property name="shotcut:hash">c7f8586e5bf60c6841ed51e6fd317612</property>
     <property name="shotcut:caption">4junior-contemplation2.png</property>
+    <property name="xml">was here</property>
   </producer>
-  <producer id="producer18" in="00:00:00.000" out="03:59:59.958">
+  <producer id="producer38" in="00:00:00.000" out="03:59:59.958">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">rendered animations/4junior-contemplation3.png</property>
@@ -475,8 +852,9 @@
     <property name="shotcut:skipConvert">1</property>
     <property name="shotcut:hash">336904b6b2889893df0058555fd7b380</property>
     <property name="shotcut:caption">4junior-contemplation3.png</property>
+    <property name="xml">was here</property>
   </producer>
-  <producer id="producer19" in="00:00:00.000" out="03:59:59.958">
+  <producer id="producer39" in="00:00:00.000" out="03:59:59.958">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">rendered animations/4junior-contemplation4.png</property>
@@ -492,8 +870,9 @@
     <property name="shotcut:skipConvert">1</property>
     <property name="shotcut:hash">902c0c3ea4e8c1df7f1adaf177616c4e</property>
     <property name="shotcut:caption">4junior-contemplation4.png</property>
+    <property name="xml">was here</property>
   </producer>
-  <producer id="producer20" in="00:00:00.000" out="03:59:59.958">
+  <producer id="producer40" in="00:00:00.000" out="03:59:59.958">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">rendered animations/4junior-contemplation5.png</property>
@@ -509,12 +888,13 @@
     <property name="shotcut:skipConvert">1</property>
     <property name="shotcut:hash">821aacc315ab468a3541e6b23169ff8e</property>
     <property name="shotcut:caption">4junior-contemplation5.png</property>
+    <property name="xml">was here</property>
   </producer>
-  <chain id="chain2" out="00:00:09.833">
-    <property name="length">00:00:09.875</property>
+  <producer id="producer41" in="00:00:00.000" out="00:00:39.458">
+    <property name="length">00:00:39.500</property>
     <property name="eof">pause</property>
-    <property name="resource">rendered animations/4junior-contemplation.mkv</property>
-    <property name="mlt_service">avformat-novalidate</property>
+    <property name="resource">0.25:rendered animations/4junior-contemplation.mkv</property>
+    <property name="aspect_ratio">1</property>
     <property name="meta.media.nb_streams">1</property>
     <property name="meta.media.0.stream.type">video</property>
     <property name="meta.media.0.stream.frame_rate">24</property>
@@ -529,15 +909,23 @@
     <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
     <property name="meta.media.0.codec.bit_rate">0</property>
     <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 libopenh264</property>
-    <property name="meta.attr.0.stream.DURATION.markup">00:00:09.875000000</property>
+    <property name="meta.attr.0.stream.DURATION.markup">00:00:14.625000000</property>
     <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
     <property name="seekable">1</property>
     <property name="meta.media.sample_aspect_num">1</property>
     <property name="meta.media.sample_aspect_den">1</property>
     <property name="audio_index">-1</property>
     <property name="video_index">0</property>
-    <property name="creation_time">2025-12-14T06:25:24</property>
+    <property name="warp_speed">0.25</property>
+    <property name="warp_resource">rendered animations/4junior-contemplation.mkv</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
     <property name="vstream">0</property>
+    <property name="shotcut:hash">8ef12587331efacc98213bd1da96be3a</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:caption">4junior-contemplation.mkv (0.25x)</property>
+    <property name="xml">was here</property>
     <property name="meta.media.frame_rate_num">24</property>
     <property name="meta.media.frame_rate_den">1</property>
     <property name="meta.media.colorspace">709</property>
@@ -547,14 +935,10 @@
     <property name="meta.media.height">1080</property>
     <property name="meta.media.aspect_ratio">1</property>
     <property name="meta.media.color_range">mpeg</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="shotcut:hash">8ef12587331efacc98213bd1da96be3a</property>
     <property name="meta.media.top_field_first">0</property>
     <property name="meta.media.progressive">1</property>
-    <property name="shotcut:caption">4junior-contemplation.mkv</property>
-    <property name="xml">was here</property>
-  </chain>
-  <producer id="producer21" in="00:00:00.000" out="03:59:59.958">
+  </producer>
+  <producer id="producer42" in="00:00:00.000" out="03:59:59.958">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">rendered animations/4junior-contemplation6.png</property>
@@ -570,6 +954,7 @@
     <property name="shotcut:skipConvert">1</property>
     <property name="shotcut:hash">6296e055dc1cdcc70f8dc84983a7645a</property>
     <property name="shotcut:caption">4junior-contemplation6.png</property>
+    <property name="xml">was here</property>
   </producer>
   <chain id="chain3" out="00:00:09.833">
     <property name="length">00:00:09.875</property>
@@ -590,7 +975,7 @@
     <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
     <property name="meta.media.0.codec.bit_rate">0</property>
     <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 libopenh264</property>
-    <property name="meta.attr.0.stream.DURATION.markup">00:00:09.875000000</property>
+    <property name="meta.attr.0.stream.DURATION.markup">00:00:14.625000000</property>
     <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
     <property name="seekable">1</property>
     <property name="meta.media.sample_aspect_num">1</property>
@@ -615,7 +1000,7 @@
     <property name="shotcut:caption">4junior-contemplation.mkv</property>
     <property name="xml">was here</property>
   </chain>
-  <producer id="producer22" in="00:00:00.000" out="03:59:59.958">
+  <producer id="producer43" in="00:00:00.000" out="03:59:59.958">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">rendered animations/4junior-contemplation7.png</property>
@@ -631,8 +1016,9 @@
     <property name="shotcut:skipConvert">1</property>
     <property name="shotcut:hash">279c7110e7a3ac90d08a9e5edcd08221</property>
     <property name="shotcut:caption">4junior-contemplation7.png</property>
+    <property name="xml">was here</property>
   </producer>
-  <producer id="producer23" in="00:00:00.000" out="03:59:59.958">
+  <producer id="producer44" in="00:00:00.000" out="03:59:59.958">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">rendered animations/4junior-contemplation8.png</property>
@@ -648,8 +1034,9 @@
     <property name="shotcut:skipConvert">1</property>
     <property name="shotcut:hash">67ccb59408ca00bfb70429e803f35117</property>
     <property name="shotcut:caption">4junior-contemplation8.png</property>
+    <property name="xml">was here</property>
   </producer>
-  <producer id="producer24" in="00:00:00.000" out="03:59:59.958">
+  <producer id="producer45" in="00:00:00.000" out="03:59:59.958">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">rendered animations/4junior-contemplation9.png</property>
@@ -665,6 +1052,7 @@
     <property name="shotcut:skipConvert">1</property>
     <property name="shotcut:hash">87ed81ef483dfa1be5ff686b303b3922</property>
     <property name="shotcut:caption">4junior-contemplation9.png</property>
+    <property name="xml">was here</property>
   </producer>
   <chain id="chain4" out="00:00:14.583">
     <property name="length">00:00:14.625</property>
@@ -710,7 +1098,7 @@
     <property name="shotcut:caption">4junior-contemplation.mkv</property>
     <property name="xml">was here</property>
   </chain>
-  <producer id="producer25" in="00:00:00.000" out="03:59:59.958">
+  <producer id="producer46" in="00:00:00.000" out="03:59:59.958">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">rendered animations/4junior-contemplation9.png</property>
@@ -727,6 +1115,642 @@
     <property name="shotcut:hash">87ed81ef483dfa1be5ff686b303b3922</property>
     <property name="shotcut:caption">4junior-contemplation9.png</property>
     <property name="xml">was here</property>
+    <filter id="filter3" out="00:00:00.750">
+      <property name="start">1</property>
+      <property name="level">00:00:00.292=1;00:00:00.750=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">12</property>
+    </filter>
+    <filter id="filter4" out="00:00:00.750">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.292=0;00:00:00.750=-60</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="shotcut:animOut">12</property>
+    </filter>
+  </producer>
+  <chain id="chain2" out="00:00:04.000">
+    <property name="length">00:00:04.042</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/5.0juniorNO.mkv</property>
+    <property name="mlt_service">avformat</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">24</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.width">1920</property>
+    <property name="meta.media.0.codec.height">1080</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.colorspace">709</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">0</property>
+    <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 libopenh264</property>
+    <property name="meta.attr.0.stream.DURATION.markup">00:00:04.042000000</property>
+    <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">24</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">709</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">mpeg</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">bebf3d14467af5869207eea73cd8387c</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:caption">5.0juniorNO.mkv</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="xml">was here</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <filter id="filter5" out="00:00:04.000">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.125=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">4</property>
+    </filter>
+  </chain>
+  <chain id="chain6" out="00:00:01.625">
+    <property name="length">00:00:01.667</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/5.1juniorNO.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">24</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.width">1920</property>
+    <property name="meta.media.0.codec.height">1080</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.colorspace">709</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">0</property>
+    <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 libopenh264</property>
+    <property name="meta.attr.0.stream.DURATION.markup">00:00:01.667000000</property>
+    <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2025-12-14T07:19:09</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">24</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">709</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">mpeg</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">8a6ce75870ba063722e9b1a4de06ba76</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="shotcut:caption">5.1juniorNO.mkv</property>
+    <property name="xml">was here</property>
+  </chain>
+  <producer id="producer47" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/5.2juniorNO1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T07:20:58</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">56a07f68d186561637522defb2b9c17b</property>
+    <property name="shotcut:caption">5.2juniorNO1.png</property>
+    <property name="xml">was here</property>
+    <filter id="filter6" out="00:00:01.292">
+      <property name="hradius">00:00:00.000=9.2;00:00:00.208=9.2;00:00:00.333=9.2;00:00:01.292=0</property>
+      <property name="vradius">00:00:00.000=0;00:00:00.208=0;00:00:00.333=0;00:00:01.292=0</property>
+      <property name="mlt_service">box_blur</property>
+      <property name="shotcut:animIn">00:00:00.250</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer48" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/5.2juniorNO2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T07:21:07</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">8e5b88c5fc348e4ff04a076b456b40ee</property>
+    <property name="shotcut:caption">5.2juniorNO2.png</property>
+    <property name="xml">was here</property>
+    <filter id="filter7" out="00:00:01.375">
+      <property name="hradius">00:00:00.000=0;00:00:00.167=9.2;00:00:00.292=9.2;00:00:01.375=0</property>
+      <property name="vradius">00:00:00.000=0;00:00:00.167=0;00:00:00.292=0;00:00:01.375=0</property>
+      <property name="mlt_service">box_blur</property>
+      <property name="shotcut:animIn">00:00:00.208</property>
+      <property name="shotcut:animOut">00:00:01.125</property>
+    </filter>
+  </producer>
+  <producer id="producer49" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/5.2juniorNO3.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T07:21:19</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">12c70feb393031eaf0bc43d4de8d1c0b</property>
+    <property name="shotcut:caption">5.2juniorNO3.png</property>
+    <property name="xml">was here</property>
+    <filter id="filter8" in="00:00:00.208" out="00:00:00.708">
+      <property name="hradius">00:00:00.000=0;00:00:00.083=9.2;00:00:00.167=9.2;00:00:00.500=0</property>
+      <property name="vradius">00:00:00.000=0;00:00:00.083=0;00:00:00.167=0;00:00:00.500=0</property>
+      <property name="mlt_service">box_blur</property>
+      <property name="shotcut:animIn">00:00:00.125</property>
+      <property name="shotcut:animOut">00:00:00.375</property>
+    </filter>
+  </producer>
+  <producer id="producer50" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/5.2juniorNO4.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T07:21:34</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">982fd1689df0a51f00b3509b538b42e1</property>
+    <property name="shotcut:caption">5.2juniorNO4.png</property>
+    <property name="xml">was here</property>
+    <filter id="filter9" in="00:00:00.500" out="00:00:00.958">
+      <property name="hradius">00:00:00.000=0;00:00:00.208=18</property>
+      <property name="vradius">00:00:00.000=0;00:00:00.208=0</property>
+      <property name="mlt_service">box_blur</property>
+      <property name="shotcut:animIn">00:00:00.250</property>
+    </filter>
+  </producer>
+  <chain id="chain7" out="00:00:02.083">
+    <property name="length">00:00:02.125</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/5.3juniorNO.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">24</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.width">1920</property>
+    <property name="meta.media.0.codec.height">1080</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.colorspace">709</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">0</property>
+    <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 libopenh264</property>
+    <property name="meta.attr.0.stream.DURATION.markup">00:00:02.125000000</property>
+    <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2025-12-14T07:28:42</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">24</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">709</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">mpeg</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">bdd6003afd8d39f08dd9606cb34997fe</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="shotcut:caption">5.3juniorNO.mkv</property>
+    <property name="xml">was here</property>
+  </chain>
+  <producer id="producer51" in="00:00:00.000" out="00:00:20.875">
+    <property name="length">00:00:20.917</property>
+    <property name="eof">pause</property>
+    <property name="resource">0.5:rendered animations/6initialfight.mkv</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">24</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.width">1920</property>
+    <property name="meta.media.0.codec.height">1080</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.colorspace">709</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">0</property>
+    <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 libopenh264</property>
+    <property name="meta.attr.0.stream.DURATION.markup">00:00:10.459000000</property>
+    <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="warp_speed">0.5</property>
+    <property name="warp_resource">rendered animations/6initialfight.mkv</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="vstream">0</property>
+    <property name="shotcut:hash">7176a22feb34ac1b6eb299e0a1dd878d</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:caption">6initialfight.mkv (0.5x)</property>
+    <property name="xml">was here</property>
+    <property name="meta.media.frame_rate_num">24</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">709</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">mpeg</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+  </producer>
+  <producer id="producer52" in="00:00:00.000" out="00:00:12.292">
+    <property name="length">00:00:12.333</property>
+    <property name="eof">pause</property>
+    <property name="resource">0.85:rendered animations/6initialfight.mkv</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">24</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.width">1920</property>
+    <property name="meta.media.0.codec.height">1080</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.colorspace">709</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">0</property>
+    <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 libopenh264</property>
+    <property name="meta.attr.0.stream.DURATION.markup">00:00:10.459000000</property>
+    <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="warp_speed">0.85</property>
+    <property name="warp_resource">rendered animations/6initialfight.mkv</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="vstream">0</property>
+    <property name="shotcut:hash">7176a22feb34ac1b6eb299e0a1dd878d</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:caption">6initialfight.mkv (0.85x)</property>
+    <property name="xml">was here</property>
+    <property name="meta.media.frame_rate_num">24</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">709</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">mpeg</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+  </producer>
+  <chain id="chain5" out="00:00:11.333">
+    <property name="length">00:00:11.375</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/6initialfight2.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">24</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.width">1920</property>
+    <property name="meta.media.0.codec.height">1080</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.colorspace">709</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">0</property>
+    <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 libopenh264</property>
+    <property name="meta.attr.0.stream.DURATION.markup">00:00:11.375000000</property>
+    <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2025-12-14T23:49:52</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">24</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">709</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">mpeg</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">0f4c8b5a5ce38b04d9ba51b82f7440d0</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="shotcut:caption">6initialfight2.mkv</property>
+    <property name="xml">was here</property>
+  </chain>
+  <producer id="producer53" in="00:00:00.000" out="00:00:12.292">
+    <property name="length">00:00:12.333</property>
+    <property name="eof">pause</property>
+    <property name="resource">0.85:rendered animations/6initialfight.mkv</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">24</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.width">1920</property>
+    <property name="meta.media.0.codec.height">1080</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.colorspace">709</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">0</property>
+    <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 libopenh264</property>
+    <property name="meta.attr.0.stream.DURATION.markup">00:00:10.459000000</property>
+    <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="warp_speed">0.85</property>
+    <property name="warp_resource">rendered animations/6initialfight.mkv</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="vstream">0</property>
+    <property name="shotcut:hash">7176a22feb34ac1b6eb299e0a1dd878d</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:caption">6initialfight.mkv (0.85x)</property>
+    <property name="xml">was here</property>
+    <property name="meta.media.frame_rate_num">24</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">709</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">mpeg</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+  </producer>
+  <producer id="producer54" in="00:00:00.000" out="00:00:12.292">
+    <property name="length">00:00:12.333</property>
+    <property name="eof">pause</property>
+    <property name="resource">0.85:rendered animations/6initialfight.mkv</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">24</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.width">1920</property>
+    <property name="meta.media.0.codec.height">1080</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.colorspace">709</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">0</property>
+    <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 libopenh264</property>
+    <property name="meta.attr.0.stream.DURATION.markup">00:00:10.459000000</property>
+    <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="warp_speed">0.85</property>
+    <property name="warp_resource">rendered animations/6initialfight.mkv</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="vstream">0</property>
+    <property name="shotcut:hash">7176a22feb34ac1b6eb299e0a1dd878d</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:caption">6initialfight.mkv (0.85x)</property>
+    <property name="xml">was here</property>
+    <property name="meta.media.frame_rate_num">24</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">709</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">mpeg</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+  </producer>
+  <producer id="producer55" in="00:00:00.000" out="00:00:20.875">
+    <property name="length">00:00:20.917</property>
+    <property name="eof">pause</property>
+    <property name="resource">0.5:rendered animations/6initialfight.mkv</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">24</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.width">1920</property>
+    <property name="meta.media.0.codec.height">1080</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.colorspace">709</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">0</property>
+    <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 libopenh264</property>
+    <property name="meta.attr.0.stream.DURATION.markup">00:00:10.459000000</property>
+    <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="warp_speed">0.5</property>
+    <property name="warp_resource">rendered animations/6initialfight.mkv</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="vstream">0</property>
+    <property name="shotcut:hash">7176a22feb34ac1b6eb299e0a1dd878d</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:caption">6initialfight.mkv (0.5x)</property>
+    <property name="xml">was here</property>
+    <property name="meta.media.frame_rate_num">24</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">709</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">mpeg</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+  </producer>
+  <producer id="producer56" in="00:00:00.000" out="00:00:20.875">
+    <property name="length">00:00:20.917</property>
+    <property name="eof">pause</property>
+    <property name="resource">0.5:rendered animations/6initialfight.mkv</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">24</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.width">1920</property>
+    <property name="meta.media.0.codec.height">1080</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.colorspace">709</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">0</property>
+    <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 libopenh264</property>
+    <property name="meta.attr.0.stream.DURATION.markup">00:00:10.459000000</property>
+    <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="warp_speed">0.5</property>
+    <property name="warp_resource">rendered animations/6initialfight.mkv</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="vstream">0</property>
+    <property name="shotcut:hash">7176a22feb34ac1b6eb299e0a1dd878d</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:caption">6initialfight.mkv (0.5x)</property>
+    <property name="xml">was here</property>
+    <property name="meta.media.frame_rate_num">24</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">709</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">mpeg</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+  </producer>
+  <producer id="producer57" in="00:00:00.000" out="00:00:20.875">
+    <property name="length">00:00:20.917</property>
+    <property name="eof">pause</property>
+    <property name="resource">0.5:rendered animations/6initialfight.mkv</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">24</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.width">1920</property>
+    <property name="meta.media.0.codec.height">1080</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.colorspace">709</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">0</property>
+    <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 libopenh264</property>
+    <property name="meta.attr.0.stream.DURATION.markup">00:00:10.459000000</property>
+    <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="warp_speed">0.5</property>
+    <property name="warp_resource">rendered animations/6initialfight.mkv</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="vstream">0</property>
+    <property name="shotcut:hash">7176a22feb34ac1b6eb299e0a1dd878d</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:caption">6initialfight.mkv (0.5x)</property>
+    <property name="xml">was here</property>
+    <property name="meta.media.frame_rate_num">24</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">709</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">mpeg</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
   </producer>
   <playlist id="playlist0">
     <property name="shotcut:video">1</property>
@@ -744,47 +1768,1433 @@
     <entry producer="producer8" in="00:00:00.000" out="00:00:03.958"/>
     <entry producer="producer9" in="00:00:00.000" out="00:00:03.958"/>
     <entry producer="producer10" in="00:00:00.000" out="00:00:03.958"/>
-    <entry producer="producer11" in="00:00:00.000" out="00:00:03.958"/>
-    <entry producer="producer12" in="00:00:00.000" out="00:00:03.958"/>
-    <entry producer="producer13" in="00:00:00.000" out="00:00:03.958"/>
-    <entry producer="producer14" in="00:00:00.000" out="00:00:03.958"/>
-    <entry producer="producer15" in="00:00:00.000" out="00:00:03.958"/>
-    <entry producer="producer16" in="00:00:00.000" out="00:00:03.958"/>
-    <entry producer="producer17" in="00:00:00.000" out="00:00:03.958"/>
-    <entry producer="producer18" in="00:00:00.000" out="00:00:03.958"/>
-    <entry producer="producer19" in="00:00:00.000" out="00:00:03.958"/>
-    <entry producer="producer20" in="00:00:00.000" out="00:00:03.958"/>
-    <entry producer="chain2" in="00:00:04.625" out="00:00:05.292"/>
-    <entry producer="producer21" in="00:00:00.000" out="00:00:03.958"/>
+    <entry producer="producer11" in="00:00:00.000" out="00:00:03.917"/>
+    <entry producer="producer12" in="00:00:00.000" out="00:00:01.208"/>
+    <entry producer="producer13" in="00:00:00.000" out="00:00:01.208"/>
+    <entry producer="producer14" in="00:00:00.000" out="00:00:01.208"/>
+    <entry producer="producer15" in="00:00:00.000" out="00:00:01.208"/>
+    <entry producer="producer16" in="00:00:00.000" out="00:00:02.042"/>
+    <entry producer="producer17" in="00:00:00.000" out="00:00:01.250"/>
+    <entry producer="producer18" in="00:00:00.000" out="00:00:01.208"/>
+    <entry producer="producer19" in="00:00:00.000" out="00:00:01.292"/>
+    <entry producer="producer20" in="00:00:00.000" out="00:00:01.208"/>
+    <entry producer="producer21" in="00:00:00.000" out="00:00:01.875"/>
+    <entry producer="producer22" in="00:00:00.000" out="00:00:01.208"/>
+    <entry producer="producer23" in="00:00:00.000" out="00:00:01.208"/>
+    <entry producer="producer24" in="00:00:00.000" out="00:00:01.208"/>
+    <entry producer="producer25" in="00:00:00.000" out="00:00:01.208"/>
+    <entry producer="producer26" in="00:00:00.000" out="00:00:00.417"/>
+    <entry producer="producer27" in="00:00:00.083" out="00:00:00.417"/>
+    <entry producer="producer28" in="00:00:00.000" out="00:00:00.292"/>
+    <entry producer="producer29" in="00:00:00.000" out="00:00:00.333"/>
+    <entry producer="producer30" in="00:00:00.000" out="00:00:00.292"/>
+    <entry producer="producer31" in="00:00:00.458" out="00:00:00.542"/>
+    <entry producer="producer32" in="00:00:00.000" out="00:00:01.250"/>
+    <entry producer="producer33" in="00:00:00.000" out="00:00:01.208"/>
+    <entry producer="producer34" in="00:00:00.000" out="00:00:01.208"/>
+    <entry producer="producer35" in="00:00:00.000" out="00:00:03.958"/>
+    <entry producer="producer36" in="00:00:00.042" out="00:00:01.750"/>
+    <entry producer="producer37" in="00:00:00.000" out="00:00:02.333"/>
+    <entry producer="producer38" in="00:00:00.000" out="00:00:02.208"/>
+    <entry producer="producer39" in="00:00:00.000" out="00:00:04.292"/>
+    <entry producer="producer40" in="00:00:01.042" out="00:00:04.125"/>
+    <entry producer="producer41" in="00:00:18.500" out="00:00:21.167"/>
+    <entry producer="producer42" in="00:00:00.000" out="00:00:02.375"/>
     <entry producer="chain3" in="00:00:06.458" out="00:00:07.417"/>
-    <entry producer="producer22" in="00:00:00.000" out="00:00:03.958"/>
-    <entry producer="producer23" in="00:00:00.000" out="00:00:03.958"/>
-    <entry producer="producer24" in="00:00:00.000" out="00:00:03.958"/>
+    <entry producer="producer43" in="00:00:00.000" out="00:00:02.583"/>
+    <entry producer="producer44" in="00:00:00.000" out="00:00:02.625"/>
+    <entry producer="producer45" in="00:00:00.000" out="00:00:00.750"/>
     <entry producer="chain4" in="00:00:09.500" out="00:00:11.458"/>
-    <entry producer="producer25" in="00:00:00.000" out="00:00:03.958"/>
+    <entry producer="producer46" in="00:00:00.000" out="00:00:00.750"/>
+    <entry producer="chain2" in="00:00:00.000" out="00:00:04.000"/>
+    <entry producer="chain6" in="00:00:00.000" out="00:00:01.208"/>
+    <entry producer="producer47" in="00:00:00.000" out="00:00:01.292"/>
+    <entry producer="producer48" in="00:00:00.000" out="00:00:01.375"/>
+    <entry producer="producer49" in="00:00:00.208" out="00:00:00.708"/>
+    <entry producer="producer50" in="00:00:00.500" out="00:00:00.958"/>
+    <entry producer="chain7" in="00:00:00.000" out="00:00:01.667"/>
+    <entry producer="producer51" in="00:00:00.000" out="00:00:01.292"/>
+    <entry producer="producer52" in="00:00:01.167" out="00:00:02.667"/>
+    <entry producer="chain5" in="00:00:06.333" out="00:00:08.917"/>
+    <entry producer="producer53" in="00:00:02.708" out="00:00:04.250"/>
+    <blank length="00:00:04.083"/>
+    <entry producer="producer54" in="00:00:04.292" out="00:00:07.417"/>
+    <blank length="00:00:04.417"/>
+    <entry producer="producer55" in="00:00:12.625" out="00:00:13.083"/>
+    <entry producer="producer56" in="00:00:13.625" out="00:00:14.208"/>
+    <entry producer="producer57" in="00:00:16.917" out="00:00:18.417"/>
   </playlist>
-  <tractor id="tractor0" title="Shotcut version 25.01.25" in="00:00:00.000" out="00:01:53.167">
+  <chain id="chain8" out="00:07:34.042">
+    <property name="length">00:07:34.083</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/marching_band.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">2</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">24</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.width">1920</property>
+    <property name="meta.media.0.codec.height">1080</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.colorspace">709</property>
+    <property name="meta.media.0.codec.color_trc">1</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">13965</property>
+    <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+    <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+    <property name="meta.media.1.stream.type">audio</property>
+    <property name="meta.media.1.codec.sample_fmt">fltp</property>
+    <property name="meta.media.1.codec.sample_rate">48000</property>
+    <property name="meta.media.1.codec.channels">2</property>
+    <property name="meta.media.1.codec.layout">stereo</property>
+    <property name="meta.media.1.codec.name">aac</property>
+    <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+    <property name="meta.media.1.codec.bit_rate">356114</property>
+    <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+    <property name="meta.attr.1.stream.vendor_id.markup">[0][0][0][0]</property>
+    <property name="meta.attr.major_brand.markup">isom</property>
+    <property name="meta.attr.minor_version.markup">512</property>
+    <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+    <property name="meta.attr.encoder.markup">Lavf61.7.100</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2025-12-13T23:41:11</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">24</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">709</property>
+    <property name="meta.media.color_trc">1</property>
+    <property name="meta.media.has_b_frames">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">mpeg</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">c127f6e757d5fe4c2fc92fb2c42bc0d8</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="shotcut:caption">marching_band.mp3</property>
+    <property name="xml">was here</property>
+    <filter id="filter10" in="00:00:00.542" out="00:00:54.000">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:49.375j=0;00:00:53.458=-60</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="shotcut:animOut">99</property>
+    </filter>
+  </chain>
+  <chain id="chain9" out="00:00:01.875">
+    <property name="length">00:00:01.917</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/whip-02-242215.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">stereo</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">256000</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2025-12-14T18:23:08</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">813cfb16c990784a6a2ba5fa8a66035a</property>
+    <property name="shotcut:caption">whip-02-242215.mp3</property>
+  </chain>
+  <chain id="chain10" out="00:00:01.875">
+    <property name="length">00:00:01.917</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/whip-02-242215.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">stereo</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">256000</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2025-12-14T18:23:08</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">813cfb16c990784a6a2ba5fa8a66035a</property>
+    <property name="shotcut:caption">whip-02-242215.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain11" out="00:00:01.875">
+    <property name="length">00:00:01.917</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/whip-02-242215.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">stereo</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">256000</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2025-12-14T18:23:08</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">813cfb16c990784a6a2ba5fa8a66035a</property>
+    <property name="shotcut:caption">whip-02-242215.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain12" out="00:00:01.875">
+    <property name="length">00:00:01.917</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/whip-02-242215.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">stereo</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">256000</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2025-12-14T18:23:08</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">813cfb16c990784a6a2ba5fa8a66035a</property>
+    <property name="shotcut:caption">whip-02-242215.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain13" out="00:00:04.750">
+    <property name="length">00:00:04.792</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/vader quote.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">independent</property>
+    <property name="meta.media.0.codec.name">pcm_s16le</property>
+    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+    <property name="meta.media.0.codec.bit_rate">1411200</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2025-12-01T04:06:14</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">525202f2ed0190868d8d012664a8fd48</property>
+    <property name="shotcut:caption">vader quote.wav</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain14" out="00:00:07.667">
+    <property name="length">00:00:07.708</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/extra-vader-line.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">independent</property>
+    <property name="meta.media.0.codec.name">pcm_s16le</property>
+    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+    <property name="meta.media.0.codec.bit_rate">1411200</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2025-11-30T20:43:29</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">dd74af106d75ae19e9d2bbe522b8854c</property>
+    <property name="shotcut:caption">extra-vader-line.wav</property>
+  </chain>
+  <chain id="chain15" out="00:00:03.417">
+    <property name="length">00:00:03.458</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/junior-no-other-choice.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">independent</property>
+    <property name="meta.media.0.codec.name">pcm_s16le</property>
+    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+    <property name="meta.media.0.codec.bit_rate">1411200</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2025-12-14T21:30:56</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">fbe1ad36cbd3a76967929d0de31ce4fd</property>
+    <property name="shotcut:caption">junior-no-other-choice.wav</property>
+    <filter id="filter11" out="00:00:03.417">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">6.1</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <chain id="chain16" out="00:00:00.958">
+    <property name="length">00:00:01.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/YogurtLine2.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">independent</property>
+    <property name="meta.media.0.codec.name">pcm_s16le</property>
+    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+    <property name="meta.media.0.codec.bit_rate">1411200</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2025-12-14T21:25:00</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">ca0f375301d15fb6bef3cc5c11c37787</property>
+    <property name="shotcut:caption">YogurtLine2.wav</property>
+    <filter id="filter12" out="00:00:00.958">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">0</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <chain id="chain17" out="00:04:32.458">
+    <property name="length">00:04:32.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/EX-LYD &amp; Sunnexo - Hyper Link - 01 Hyper Link.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">2</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">stereo</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">267683</property>
+    <property name="meta.attr.0.stream.encoder.markup">LAME3.99r</property>
+    <property name="meta.media.1.stream.type">video</property>
+    <property name="meta.media.1.stream.frame_rate">90000</property>
+    <property name="meta.media.1.stream.sample_aspect_ratio">0</property>
+    <property name="meta.media.1.codec.width">700</property>
+    <property name="meta.media.1.codec.height">700</property>
+    <property name="meta.media.1.codec.rotate">0</property>
+    <property name="meta.media.1.codec.pix_fmt">yuvj444p</property>
+    <property name="meta.media.1.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.1.codec.colorspace">601</property>
+    <property name="meta.media.1.codec.name">mjpeg</property>
+    <property name="meta.media.1.codec.long_name">MJPEG (Motion JPEG)</property>
+    <property name="meta.media.1.codec.bit_rate">0</property>
+    <property name="meta.attr.1.stream.title.markup">cover</property>
+    <property name="meta.attr.1.stream.comment.markup">Cover (front)</property>
+    <property name="meta.attr.title.markup">Hyper Link</property>
+    <property name="meta.attr.artist.markup">EX-LYD &amp; Sunnexo</property>
+    <property name="meta.attr.track.markup">1</property>
+    <property name="meta.attr.album.markup">Hyper Link</property>
+    <property name="meta.attr.comment.markup">Visit https://sunnexo.bandcamp.com</property>
+    <property name="meta.attr.album_artist.markup">EX-LYD &amp; Sunnexo</property>
+    <property name="meta.attr.date.markup">2024</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">72</property>
+    <property name="meta.media.sample_aspect_den">72</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="creation_time">2025-12-13T22:23:15</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">90000</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">601</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">700</property>
+    <property name="meta.media.height">700</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">full</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">f9ae17ca6c0f4efd02ec2fbb31124928</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="shotcut:caption">EX-LYD &amp; Sunnexo - Hyper Link - 01 Hyper Link.mp3</property>
+    <property name="xml">was here</property>
+    <filter id="filter13" in="00:01:05.917" out="00:01:07.583">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-8.1</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+    <filter id="filter14" in="00:01:05.917" out="00:01:07.583">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">0</property>
+      <property name="mlt_service">volume</property>
+      <property name="disable">1</property>
+    </filter>
+  </chain>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <entry producer="chain8" in="00:00:00.542" out="00:00:54.000"/>
+    <entry producer="chain9" in="00:00:00.208" out="00:00:01.875"/>
+    <blank length="00:00:05.333"/>
+    <entry producer="chain10" in="00:00:00.208" out="00:00:01.875"/>
+    <blank length="00:00:05.333"/>
+    <entry producer="chain11" in="00:00:00.250" out="00:00:01.875"/>
+    <blank length="00:00:05.333"/>
+    <entry producer="chain12" in="00:00:00.000" out="00:00:01.875"/>
+    <blank length="00:00:12.250"/>
+    <entry producer="chain13" in="00:00:00.375" out="00:00:03.625"/>
+    <entry producer="chain14" in="00:00:00.542" out="00:00:07.667"/>
+    <blank length="00:00:12.000"/>
+    <entry producer="chain15" in="00:00:00.000" out="00:00:03.417"/>
+    <blank length="00:00:00.583"/>
+    <entry producer="chain16" in="00:00:00.000" out="00:00:00.958"/>
+    <blank length="00:00:04.042"/>
+    <entry producer="chain17" in="00:01:05.917" out="00:01:07.583"/>
+  </playlist>
+  <chain id="chain18" out="00:00:02.958">
+    <property name="length">00:00:03.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/studio-audience-awwww-sound-fx.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">stereo</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">128000</property>
+    <property name="meta.attr.0.stream.encoder.markup">Lavc57.10</property>
+    <property name="meta.attr.encoded_by.markup">Lavf52.16.0</property>
+    <property name="meta.attr.encoder.markup">Lavf57.83.100</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2025-12-05T23:55:13</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">4f3b73f893dee3e6da192a675cbf5e51</property>
+    <property name="shotcut:caption">studio-audience-awwww-sound-fx.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain19" out="00:00:01.500">
+    <property name="length">00:00:01.542</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/gasp-6253.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">24000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">stereo</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">160000</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2025-12-14T18:21:09</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">428f9ed28339ba66c71bd6b0f05afa31</property>
+    <property name="shotcut:caption">gasp-6253.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain20" out="00:00:10.042">
+    <property name="length">00:00:10.083</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/aurora-not-enough-cards.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">1</property>
+    <property name="meta.media.0.codec.layout">mono</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">64000</property>
+    <property name="meta.attr.0.stream.encoder.markup">LAME3.100</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2025-12-13T22:23:37</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">79e6f47b4df628800cc8cf6a945bbebc</property>
+    <property name="shotcut:caption">aurora-not-enough-cards.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain21" out="00:00:04.042">
+    <property name="length">00:00:04.083</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/YogurtLine1.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">1</property>
+    <property name="meta.media.0.codec.layout">mono</property>
+    <property name="meta.media.0.codec.name">pcm_s16le</property>
+    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+    <property name="meta.media.0.codec.bit_rate">705600</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2025-12-14T19:05:26</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">4243e9e6f13b1ab7a7e845e5201f959d</property>
+    <property name="shotcut:caption">YogurtLine1.wav</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain22" out="00:00:06.958">
+    <property name="length">00:00:07.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/bingo-intro.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">independent</property>
+    <property name="meta.media.0.codec.name">pcm_s16le</property>
+    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+    <property name="meta.media.0.codec.bit_rate">1411200</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2025-12-14T18:55:12</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">3507ff3121d2254eb56718900fa0fc5d</property>
+    <property name="shotcut:caption">bingo-intro.wav</property>
+    <property name="xml">was here</property>
+    <filter id="filter15" out="00:00:06.958">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">4.1</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <chain id="chain23" out="00:00:02.125">
+    <property name="length">00:00:02.167</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/junior-intro.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">independent</property>
+    <property name="meta.media.0.codec.name">pcm_s16le</property>
+    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+    <property name="meta.media.0.codec.bit_rate">1411200</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2025-12-14T19:17:43</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">526dff617d97556b4f5e913476ec7dc0</property>
+    <property name="shotcut:caption">junior-intro.wav</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain24" out="00:00:05.958">
+    <property name="length">00:00:06.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/danger.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">independent</property>
+    <property name="meta.media.0.codec.name">pcm_s16le</property>
+    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+    <property name="meta.media.0.codec.bit_rate">1411200</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2025-12-14T20:41:04</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">6ec02ad21f7e48a51a65224c0cc52553</property>
+    <property name="shotcut:caption">danger.wav</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain25" out="00:00:03.000">
+    <property name="length">00:00:03.042</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/junior-ugh.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">independent</property>
+    <property name="meta.media.0.codec.name">pcm_s16le</property>
+    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+    <property name="meta.media.0.codec.bit_rate">1411200</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2025-12-14T20:47:32</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">848fea924de7124a27d08c740ba55089</property>
+    <property name="shotcut:caption">junior-ugh.wav</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain26" out="00:00:03.958">
+    <property name="length">00:00:04.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/exclpoint.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">independent</property>
+    <property name="meta.media.0.codec.name">pcm_s16le</property>
+    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+    <property name="meta.media.0.codec.bit_rate">1411200</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2025-12-14T21:58:46</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">af0a7ac6eacfb928d38d79560a5a9540</property>
+    <property name="shotcut:caption">exclpoint.wav</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain27" out="00:04:32.458">
+    <property name="length">00:04:32.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/EX-LYD &amp; Sunnexo - Hyper Link - 01 Hyper Link.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">2</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">stereo</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">267683</property>
+    <property name="meta.attr.0.stream.encoder.markup">LAME3.99r</property>
+    <property name="meta.media.1.stream.type">video</property>
+    <property name="meta.media.1.stream.frame_rate">90000</property>
+    <property name="meta.media.1.stream.sample_aspect_ratio">0</property>
+    <property name="meta.media.1.codec.width">700</property>
+    <property name="meta.media.1.codec.height">700</property>
+    <property name="meta.media.1.codec.rotate">0</property>
+    <property name="meta.media.1.codec.pix_fmt">yuvj444p</property>
+    <property name="meta.media.1.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.1.codec.colorspace">601</property>
+    <property name="meta.media.1.codec.name">mjpeg</property>
+    <property name="meta.media.1.codec.long_name">MJPEG (Motion JPEG)</property>
+    <property name="meta.media.1.codec.bit_rate">0</property>
+    <property name="meta.attr.1.stream.title.markup">cover</property>
+    <property name="meta.attr.1.stream.comment.markup">Cover (front)</property>
+    <property name="meta.attr.title.markup">Hyper Link</property>
+    <property name="meta.attr.artist.markup">EX-LYD &amp; Sunnexo</property>
+    <property name="meta.attr.track.markup">1</property>
+    <property name="meta.attr.album.markup">Hyper Link</property>
+    <property name="meta.attr.comment.markup">Visit https://sunnexo.bandcamp.com</property>
+    <property name="meta.attr.album_artist.markup">EX-LYD &amp; Sunnexo</property>
+    <property name="meta.attr.date.markup">2024</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">72</property>
+    <property name="meta.media.sample_aspect_den">72</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="creation_time">2025-12-13T22:23:15</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">90000</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">601</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">700</property>
+    <property name="meta.media.height">700</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">full</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">f9ae17ca6c0f4efd02ec2fbb31124928</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="shotcut:caption">EX-LYD &amp; Sunnexo - Hyper Link - 01 Hyper Link.mp3</property>
+    <property name="xml">was here</property>
+    <filter id="filter16" in="00:01:07.625" out="00:04:32.458">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-8.1</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+    <filter id="filter17" in="00:01:07.625" out="00:04:32.458">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">0</property>
+      <property name="mlt_service">volume</property>
+      <property name="disable">1</property>
+    </filter>
+  </chain>
+  <playlist id="playlist2">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A2</property>
+    <blank length="00:00:28.542"/>
+    <entry producer="chain18" in="00:00:00.000" out="00:00:02.958"/>
+    <blank length="00:00:01.292"/>
+    <entry producer="chain19" in="00:00:00.000" out="00:00:01.500"/>
+    <blank length="00:00:20.083"/>
+    <entry producer="chain20" in="00:00:03.042" out="00:00:06.667"/>
+    <blank length="00:00:03.708"/>
+    <entry producer="chain21" in="00:00:00.000" out="00:00:04.042"/>
+    <blank length="00:00:01.667"/>
+    <entry producer="chain22" in="00:00:00.000" out="00:00:06.958"/>
+    <blank length="00:00:01.292"/>
+    <entry producer="chain23" in="00:00:00.000" out="00:00:02.125"/>
+    <blank length="00:00:07.458"/>
+    <entry producer="chain24" in="00:00:00.000" out="00:00:05.958"/>
+    <blank length="00:00:07.417"/>
+    <entry producer="chain25" in="00:00:00.625" out="00:00:03.000"/>
+    <blank length="00:00:10.458"/>
+    <entry producer="chain26" in="00:00:00.000" out="00:00:00.708"/>
+    <blank length="00:00:09.458"/>
+    <entry producer="chain27" in="00:01:07.625" out="00:04:32.458"/>
+  </playlist>
+  <chain id="chain28" out="00:00:47.583">
+    <property name="length">00:00:47.625</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/riotous-yelling.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">independent</property>
+    <property name="meta.media.0.codec.name">pcm_s16le</property>
+    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+    <property name="meta.media.0.codec.bit_rate">1411200</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2025-12-14T19:01:46</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">201e497c124594f87cc2b4003485f060</property>
+    <property name="shotcut:caption">riotous-yelling.wav</property>
+    <property name="xml">was here</property>
+    <filter id="filter18" out="00:00:34.542">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-60;00:00:02.042=0</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="shotcut:animIn">50</property>
+    </filter>
+    <filter id="filter19" out="00:00:34.542">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-12.6</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <chain id="chain29" out="00:00:47.583">
+    <property name="length">00:00:47.625</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/riotous-yelling.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">independent</property>
+    <property name="meta.media.0.codec.name">pcm_s16le</property>
+    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+    <property name="meta.media.0.codec.bit_rate">1411200</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2025-12-14T19:01:46</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">201e497c124594f87cc2b4003485f060</property>
+    <property name="shotcut:caption">riotous-yelling.wav</property>
+    <property name="xml">was here</property>
+    <filter id="filter20" in="00:00:34.583" out="00:00:36.917">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-11</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+    <filter id="filter21" in="00:00:34.583" out="00:00:36.917">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000j=0;00:00:02.333=-60</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="shotcut:animOut">57</property>
+    </filter>
+  </chain>
+  <chain id="chain30" out="00:04:32.458">
+    <property name="length">00:04:32.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/EX-LYD &amp; Sunnexo - Hyper Link - 01 Hyper Link.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">2</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">stereo</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">267683</property>
+    <property name="meta.attr.0.stream.encoder.markup">LAME3.99r</property>
+    <property name="meta.media.1.stream.type">video</property>
+    <property name="meta.media.1.stream.frame_rate">90000</property>
+    <property name="meta.media.1.stream.sample_aspect_ratio">0</property>
+    <property name="meta.media.1.codec.width">700</property>
+    <property name="meta.media.1.codec.height">700</property>
+    <property name="meta.media.1.codec.rotate">0</property>
+    <property name="meta.media.1.codec.pix_fmt">yuvj444p</property>
+    <property name="meta.media.1.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.1.codec.colorspace">601</property>
+    <property name="meta.media.1.codec.name">mjpeg</property>
+    <property name="meta.media.1.codec.long_name">MJPEG (Motion JPEG)</property>
+    <property name="meta.media.1.codec.bit_rate">0</property>
+    <property name="meta.attr.1.stream.title.markup">cover</property>
+    <property name="meta.attr.1.stream.comment.markup">Cover (front)</property>
+    <property name="meta.attr.title.markup">Hyper Link</property>
+    <property name="meta.attr.artist.markup">EX-LYD &amp; Sunnexo</property>
+    <property name="meta.attr.track.markup">1</property>
+    <property name="meta.attr.album.markup">Hyper Link</property>
+    <property name="meta.attr.comment.markup">Visit https://sunnexo.bandcamp.com</property>
+    <property name="meta.attr.album_artist.markup">EX-LYD &amp; Sunnexo</property>
+    <property name="meta.attr.date.markup">2024</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">72</property>
+    <property name="meta.media.sample_aspect_den">72</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="creation_time">2025-12-13T22:23:15</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">90000</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">601</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">700</property>
+    <property name="meta.media.height">700</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">full</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">f9ae17ca6c0f4efd02ec2fbb31124928</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="shotcut:caption">EX-LYD &amp; Sunnexo - Hyper Link - 01 Hyper Link.mp3</property>
+    <property name="xml">was here</property>
+    <filter id="filter22" in="00:00:25.958" out="00:00:32.958">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-60;00:00:04.625=0</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="shotcut:animIn">112</property>
+    </filter>
+    <filter id="filter23" in="00:00:25.958" out="00:00:32.958">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-8.1</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+    <filter id="filter24" in="00:00:34.708" out="00:00:32.958">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">0</property>
+      <property name="mlt_service">volume</property>
+      <property name="disable">1</property>
+    </filter>
+  </chain>
+  <chain id="chain31" out="00:04:32.458">
+    <property name="length">00:04:32.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/EX-LYD &amp; Sunnexo - Hyper Link - 01 Hyper Link.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">2</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">stereo</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">267683</property>
+    <property name="meta.attr.0.stream.encoder.markup">LAME3.99r</property>
+    <property name="meta.media.1.stream.type">video</property>
+    <property name="meta.media.1.stream.frame_rate">90000</property>
+    <property name="meta.media.1.stream.sample_aspect_ratio">0</property>
+    <property name="meta.media.1.codec.width">700</property>
+    <property name="meta.media.1.codec.height">700</property>
+    <property name="meta.media.1.codec.rotate">0</property>
+    <property name="meta.media.1.codec.pix_fmt">yuvj444p</property>
+    <property name="meta.media.1.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.1.codec.colorspace">601</property>
+    <property name="meta.media.1.codec.name">mjpeg</property>
+    <property name="meta.media.1.codec.long_name">MJPEG (Motion JPEG)</property>
+    <property name="meta.media.1.codec.bit_rate">0</property>
+    <property name="meta.attr.1.stream.title.markup">cover</property>
+    <property name="meta.attr.1.stream.comment.markup">Cover (front)</property>
+    <property name="meta.attr.title.markup">Hyper Link</property>
+    <property name="meta.attr.artist.markup">EX-LYD &amp; Sunnexo</property>
+    <property name="meta.attr.track.markup">1</property>
+    <property name="meta.attr.album.markup">Hyper Link</property>
+    <property name="meta.attr.comment.markup">Visit https://sunnexo.bandcamp.com</property>
+    <property name="meta.attr.album_artist.markup">EX-LYD &amp; Sunnexo</property>
+    <property name="meta.attr.date.markup">2024</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">72</property>
+    <property name="meta.media.sample_aspect_den">72</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="creation_time">2025-12-13T22:23:15</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">90000</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">601</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">700</property>
+    <property name="meta.media.height">700</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">full</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">f9ae17ca6c0f4efd02ec2fbb31124928</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="shotcut:caption">EX-LYD &amp; Sunnexo - Hyper Link - 01 Hyper Link.mp3</property>
+    <property name="xml">was here</property>
+    <filter id="filter25" in="00:00:37.792" out="00:00:45.958">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-8.1</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+    <filter id="filter26" in="00:00:34.708" out="00:00:45.958">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">0</property>
+      <property name="mlt_service">volume</property>
+      <property name="disable">1</property>
+    </filter>
+  </chain>
+  <tractor id="tractor0" in="00:00:00.000" out="00:00:01.000">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="chain30" in="00:00:31.958" out="00:00:32.958"/>
+    <track producer="chain31" in="00:00:37.792" out="00:00:38.792"/>
+    <transition id="transition0" out="00:00:01.000">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+    </transition>
+    <transition id="transition1" out="00:00:01.000">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <chain id="chain32" out="00:04:32.458">
+    <property name="length">00:04:32.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/EX-LYD &amp; Sunnexo - Hyper Link - 01 Hyper Link.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">2</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">stereo</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">267683</property>
+    <property name="meta.attr.0.stream.encoder.markup">LAME3.99r</property>
+    <property name="meta.media.1.stream.type">video</property>
+    <property name="meta.media.1.stream.frame_rate">90000</property>
+    <property name="meta.media.1.stream.sample_aspect_ratio">0</property>
+    <property name="meta.media.1.codec.width">700</property>
+    <property name="meta.media.1.codec.height">700</property>
+    <property name="meta.media.1.codec.rotate">0</property>
+    <property name="meta.media.1.codec.pix_fmt">yuvj444p</property>
+    <property name="meta.media.1.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.1.codec.colorspace">601</property>
+    <property name="meta.media.1.codec.name">mjpeg</property>
+    <property name="meta.media.1.codec.long_name">MJPEG (Motion JPEG)</property>
+    <property name="meta.media.1.codec.bit_rate">0</property>
+    <property name="meta.attr.1.stream.title.markup">cover</property>
+    <property name="meta.attr.1.stream.comment.markup">Cover (front)</property>
+    <property name="meta.attr.title.markup">Hyper Link</property>
+    <property name="meta.attr.artist.markup">EX-LYD &amp; Sunnexo</property>
+    <property name="meta.attr.track.markup">1</property>
+    <property name="meta.attr.album.markup">Hyper Link</property>
+    <property name="meta.attr.comment.markup">Visit https://sunnexo.bandcamp.com</property>
+    <property name="meta.attr.album_artist.markup">EX-LYD &amp; Sunnexo</property>
+    <property name="meta.attr.date.markup">2024</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">72</property>
+    <property name="meta.media.sample_aspect_den">72</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="creation_time">2025-12-13T22:23:15</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">90000</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">601</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">700</property>
+    <property name="meta.media.height">700</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">full</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">f9ae17ca6c0f4efd02ec2fbb31124928</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="shotcut:caption">EX-LYD &amp; Sunnexo - Hyper Link - 01 Hyper Link.mp3</property>
+    <property name="xml">was here</property>
+    <filter id="filter27" in="00:00:56.833" out="00:01:02.083">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-13.8</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+    <filter id="filter28" in="00:00:56.833" out="00:01:02.083">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">0</property>
+      <property name="mlt_service">volume</property>
+      <property name="disable">1</property>
+    </filter>
+  </chain>
+  <tractor id="tractor1" in="00:00:00.000" out="00:00:00.333">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="chain31" in="00:00:45.625" out="00:00:45.958"/>
+    <track producer="chain32" in="00:00:56.833" out="00:00:57.167"/>
+    <transition id="transition2" out="00:00:00.333">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+    </transition>
+    <transition id="transition3" out="00:00:00.333">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <chain id="chain33" out="00:04:32.458">
+    <property name="length">00:04:32.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/EX-LYD &amp; Sunnexo - Hyper Link - 01 Hyper Link.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">2</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">stereo</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">267683</property>
+    <property name="meta.attr.0.stream.encoder.markup">LAME3.99r</property>
+    <property name="meta.media.1.stream.type">video</property>
+    <property name="meta.media.1.stream.frame_rate">90000</property>
+    <property name="meta.media.1.stream.sample_aspect_ratio">0</property>
+    <property name="meta.media.1.codec.width">700</property>
+    <property name="meta.media.1.codec.height">700</property>
+    <property name="meta.media.1.codec.rotate">0</property>
+    <property name="meta.media.1.codec.pix_fmt">yuvj444p</property>
+    <property name="meta.media.1.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.1.codec.colorspace">601</property>
+    <property name="meta.media.1.codec.name">mjpeg</property>
+    <property name="meta.media.1.codec.long_name">MJPEG (Motion JPEG)</property>
+    <property name="meta.media.1.codec.bit_rate">0</property>
+    <property name="meta.attr.1.stream.title.markup">cover</property>
+    <property name="meta.attr.1.stream.comment.markup">Cover (front)</property>
+    <property name="meta.attr.title.markup">Hyper Link</property>
+    <property name="meta.attr.artist.markup">EX-LYD &amp; Sunnexo</property>
+    <property name="meta.attr.track.markup">1</property>
+    <property name="meta.attr.album.markup">Hyper Link</property>
+    <property name="meta.attr.comment.markup">Visit https://sunnexo.bandcamp.com</property>
+    <property name="meta.attr.album_artist.markup">EX-LYD &amp; Sunnexo</property>
+    <property name="meta.attr.date.markup">2024</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">72</property>
+    <property name="meta.media.sample_aspect_den">72</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="creation_time">2025-12-13T22:23:15</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">90000</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">601</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">700</property>
+    <property name="meta.media.height">700</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">full</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">f9ae17ca6c0f4efd02ec2fbb31124928</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="shotcut:caption">EX-LYD &amp; Sunnexo - Hyper Link - 01 Hyper Link.mp3</property>
+    <property name="xml">was here</property>
+    <filter id="filter29" in="00:01:02.125" out="00:01:05.875">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-8.1</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+    <filter id="filter30" in="00:01:02.125" out="00:01:05.875">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">0</property>
+      <property name="mlt_service">volume</property>
+      <property name="disable">1</property>
+    </filter>
+  </chain>
+  <chain id="chain34" out="00:04:32.458">
+    <property name="length">00:04:32.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/EX-LYD &amp; Sunnexo - Hyper Link - 01 Hyper Link.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">2</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">stereo</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">267683</property>
+    <property name="meta.attr.0.stream.encoder.markup">LAME3.99r</property>
+    <property name="meta.media.1.stream.type">video</property>
+    <property name="meta.media.1.stream.frame_rate">90000</property>
+    <property name="meta.media.1.stream.sample_aspect_ratio">0</property>
+    <property name="meta.media.1.codec.width">700</property>
+    <property name="meta.media.1.codec.height">700</property>
+    <property name="meta.media.1.codec.rotate">0</property>
+    <property name="meta.media.1.codec.pix_fmt">yuvj444p</property>
+    <property name="meta.media.1.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.1.codec.colorspace">601</property>
+    <property name="meta.media.1.codec.name">mjpeg</property>
+    <property name="meta.media.1.codec.long_name">MJPEG (Motion JPEG)</property>
+    <property name="meta.media.1.codec.bit_rate">0</property>
+    <property name="meta.attr.1.stream.title.markup">cover</property>
+    <property name="meta.attr.1.stream.comment.markup">Cover (front)</property>
+    <property name="meta.attr.title.markup">Hyper Link</property>
+    <property name="meta.attr.artist.markup">EX-LYD &amp; Sunnexo</property>
+    <property name="meta.attr.track.markup">1</property>
+    <property name="meta.attr.album.markup">Hyper Link</property>
+    <property name="meta.attr.comment.markup">Visit https://sunnexo.bandcamp.com</property>
+    <property name="meta.attr.album_artist.markup">EX-LYD &amp; Sunnexo</property>
+    <property name="meta.attr.date.markup">2024</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">72</property>
+    <property name="meta.media.sample_aspect_den">72</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="creation_time">2025-12-13T22:23:15</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">90000</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">601</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">700</property>
+    <property name="meta.media.height">700</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">full</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">f9ae17ca6c0f4efd02ec2fbb31124928</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="shotcut:caption">EX-LYD &amp; Sunnexo - Hyper Link - 01 Hyper Link.mp3</property>
+    <property name="xml">was here</property>
+    <filter id="filter31" in="00:01:02.083" out="00:04:32.458">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-8.1</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+    <filter id="filter32" in="00:01:02.083" out="00:04:32.458">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">0</property>
+      <property name="mlt_service">volume</property>
+      <property name="disable">1</property>
+    </filter>
+  </chain>
+  <chain id="chain35" out="00:04:32.458">
+    <property name="length">00:04:32.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/EX-LYD &amp; Sunnexo - Hyper Link - 01 Hyper Link.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">2</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">stereo</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">267683</property>
+    <property name="meta.attr.0.stream.encoder.markup">LAME3.99r</property>
+    <property name="meta.media.1.stream.type">video</property>
+    <property name="meta.media.1.stream.frame_rate">90000</property>
+    <property name="meta.media.1.stream.sample_aspect_ratio">0</property>
+    <property name="meta.media.1.codec.width">700</property>
+    <property name="meta.media.1.codec.height">700</property>
+    <property name="meta.media.1.codec.rotate">0</property>
+    <property name="meta.media.1.codec.pix_fmt">yuvj444p</property>
+    <property name="meta.media.1.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.1.codec.colorspace">601</property>
+    <property name="meta.media.1.codec.name">mjpeg</property>
+    <property name="meta.media.1.codec.long_name">MJPEG (Motion JPEG)</property>
+    <property name="meta.media.1.codec.bit_rate">0</property>
+    <property name="meta.attr.1.stream.title.markup">cover</property>
+    <property name="meta.attr.1.stream.comment.markup">Cover (front)</property>
+    <property name="meta.attr.title.markup">Hyper Link</property>
+    <property name="meta.attr.artist.markup">EX-LYD &amp; Sunnexo</property>
+    <property name="meta.attr.track.markup">1</property>
+    <property name="meta.attr.album.markup">Hyper Link</property>
+    <property name="meta.attr.comment.markup">Visit https://sunnexo.bandcamp.com</property>
+    <property name="meta.attr.album_artist.markup">EX-LYD &amp; Sunnexo</property>
+    <property name="meta.attr.date.markup">2024</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">72</property>
+    <property name="meta.media.sample_aspect_den">72</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="creation_time">2025-12-13T22:23:15</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">90000</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">601</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">700</property>
+    <property name="meta.media.height">700</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">full</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">f9ae17ca6c0f4efd02ec2fbb31124928</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="shotcut:caption">EX-LYD &amp; Sunnexo - Hyper Link - 01 Hyper Link.mp3</property>
+    <property name="xml">was here</property>
+    <filter id="filter33" in="00:01:01.833" out="00:04:32.458">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-8.1</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:animIn">0</property>
+      <property name="shotcut:animOut">0</property>
+    </filter>
+    <filter id="filter34" in="00:01:01.833" out="00:01:02.042">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">0</property>
+      <property name="mlt_service">volume</property>
+      <property name="disable">1</property>
+    </filter>
+    <filter id="filter35" in="00:01:02.083" out="00:01:02.042">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-8.1</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+    <filter id="filter36" in="00:01:02.083" out="00:01:02.042">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">0</property>
+      <property name="mlt_service">volume</property>
+      <property name="disable">1</property>
+    </filter>
+  </chain>
+  <playlist id="playlist3">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A3</property>
+    <blank length="00:00:49.542"/>
+    <entry producer="chain28" in="00:00:00.000" out="00:00:34.542"/>
+    <entry producer="chain29" in="00:00:34.583" out="00:00:36.917"/>
+    <blank length="00:00:10.875"/>
+    <entry producer="chain30" in="00:00:25.958" out="00:00:31.917"/>
+    <entry producer="tractor0" in="00:00:00.000" out="00:00:01.000"/>
+    <entry producer="chain31" in="00:00:38.833" out="00:00:45.583"/>
+    <entry producer="tractor1" in="00:00:00.000" out="00:00:00.333"/>
+    <entry producer="chain32" in="00:00:57.208" out="00:01:02.083"/>
+    <entry producer="chain33" in="00:01:02.125" out="00:01:05.875"/>
+    <blank length="00:03:26.583"/>
+    <entry producer="chain34" in="00:01:02.083" out="00:04:32.458"/>
+    <entry producer="chain35" in="00:01:01.833" out="00:01:02.042"/>
+  </playlist>
+  <producer id="producer58" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">rendered animations/3.1character-intros-junior4.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-12-14T21:01:24</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">28deb09d7dcc34422f4517ff8535ed13</property>
+    <property name="shotcut:caption">3.1character-intros-junior4.png</property>
+    <filter id="filter37" out="00:00:02.750">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">00:00:00.000=0;00:00:00.958=1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+  </producer>
+  <playlist id="playlist4">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <blank length="00:01:19.583"/>
+    <entry producer="producer58" in="00:00:00.000" out="00:00:02.750"/>
+  </playlist>
+  <tractor id="tractor2" title="Shotcut version 25.01.25" in="00:00:00.000" out="00:08:57.500">
     <property name="shotcut">1</property>
-    <property name="shotcut:scaleFactor">2.99598</property>
+    <property name="shotcut:scaleFactor">5.27802</property>
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">0</property>
     <property name="shotcut:skipConvert">0</property>
     <track producer="background"/>
     <track producer="playlist0"/>
-    <transition id="transition0">
+    <track producer="playlist1" hide="video"/>
+    <track producer="playlist2" hide="video"/>
+    <track producer="playlist3" hide="video"/>
+    <track producer="playlist4"/>
+    <transition id="transition4">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="mlt_service">mix</property>
       <property name="always_active">1</property>
       <property name="sum">1</property>
     </transition>
-    <transition id="transition1">
+    <transition id="transition5">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="version">0.1</property>
       <property name="mlt_service">frei0r.cairoblend</property>
       <property name="threads">0</property>
       <property name="disable">1</property>
+    </transition>
+    <transition id="transition6">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition7">
+      <property name="a_track">0</property>
+      <property name="b_track">3</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition8">
+      <property name="a_track">0</property>
+      <property name="b_track">4</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition9">
+      <property name="a_track">0</property>
+      <property name="b_track">5</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition10">
+      <property name="a_track">1</property>
+      <property name="b_track">5</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">0</property>
     </transition>
   </tractor>
 </mlt>

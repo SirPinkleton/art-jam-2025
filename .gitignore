@@ -2,5 +2,8 @@
 *.kra~
 *.kra-autosave.kra
 *.mkv
+*.mkv.log
 *.mp4*
 *.zip
+*.png~
+Backup*
