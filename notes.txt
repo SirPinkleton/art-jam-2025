@@ -22,7 +22,7 @@ git repo where these files are hosted: https://github.com/SirPinkleton/art-jam-2
 
 References:
 iowa map used for reference: https://www.urbandale.org/DocumentCenter/View/1310/City-Map-PDF
-stock photos: pngtree.com, vecteezy.com, Alamy.com
+stock photos: pngtree.com, vecteezy.com, Alamy.com, gettyimages.dk
 Hyper Link by EX-LYD & Sunnexo (https://www.youtube.com/watch?v=YsQL4g57wlY) (https://sunnexo.bandcamp.com/album/hyper-link)
 princess diana, newyorker.com
 Marching band music, Audio and Video Archives (AVA) (https://www.youtube.com/watch?v=dMupLMdIP14)
@@ -43,7 +43,7 @@ Secret Details for this video:
 - XX:XX homestuck discourse in the background
 - XX:XX big hippo, the GOAT
 - XX:XX Junior loses one of their wrist bands
-
+- XX:XX Yogurt uses their clown ability to re-roll coin flips for a sleep affect
 
 RNDEBUG todo: 
 * make sure braceletsand socks for junior are present when they should
@@ -57,10 +57,6 @@ RNDEBUG todo:
 * If there's time, replace all copy-paste art with your own art-jam-2025
 * If there's time, add more frames around aurora's fight scene
 * Consider giving Bingo a suitcase...?
-
-almost but not quite 3 secondsof falling towards an electrifying portal
-2.75 seconds of the rotation so they're falling sideways
-4 seconds of falling through a kaleidascope of colors and stuff, fading to white
 
 
 
