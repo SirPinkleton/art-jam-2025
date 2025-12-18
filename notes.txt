@@ -24,28 +24,28 @@ git repo where these files are hosted: https://github.com/SirPinkleton/art-jam-2
 References:
 Hyper Link by EX-LYD & Sunnexo (https://www.youtube.com/watch?v=YsQL4g57wlY) (https://sunnexo.bandcamp.com/album/hyper-link)
 iowa map used for reference: https://www.urbandale.org/DocumentCenter/View/1310/City-Map-PDF
-stock photos: pngtree.com, vecteezy.com, Alamy.com, gettyimages.dk
-princess diana, newyorker.com
-Marching band music, Audio and Video Archives (AVA) (https://www.youtube.com/watch?v=dMupLMdIP14)
-pond5.com
-Ableton Live 11 Suite
+stock photos/sounds: pngtree.com, vecteezy.com, Alamy.com, gettyimages.dk, newyorker.com, pond5.com
+Marching band music - Audio and Video Archives (AVA) (https://www.youtube.com/watch?v=dMupLMdIP14)
+Spanish Flea - Herb ALpert (https://www.youtube.com/watch?v=mML2fPec7xU)
 
 Tools:
 Krita for making the art/animation
 ShotCut for compiling images into a video
 MyMap, for use in creating the reference in the intro
 4k Video Downloader+
-Audacity
-Ableton 11
+Audacity for autio recording
+Ableton Live 11 Suite for creating small sound samples
 
 Tutorials:
 Audacity help with vader voice: https://www.youtube.com/watch?v=1bHaIHqQ_BE
+Subtitles for ShotCut: https://www.youtube.com/watch?v=jHM5tBeTrYQ
 
 Secret Details for this video:
 - XX:XX homestuck discourse in the background
 - XX:XX big hippo, the GOAT
 - XX:XX Junior loses one of their wrist bands
 - XX:XX Yogurt uses their clown ability to re-roll coin flips for a sleep affect
+- XX
 
 RNDEBUG todo: 
 * make sure bracelets and socks for junior are present when they should
@@ -56,10 +56,8 @@ RNDEBUG todo:
 * Add more baby accoutremants to the cloaked characters
 * Find more opportunities for cute little detailsr
 * If there's time, replace all copy-paste art with your own
-* Consider giving Bingo a suitcase...?
 
+* direction Junior swings saber sither sniper
+* sniper is hard to see against white sky
 
-
-5.5 seconds of breakdancing while sliding, dodging bullets and swings and stuff
-5.5 seconds of summoning jigglypuff
-5+ seconds of showing people going to sleep
+* captions
