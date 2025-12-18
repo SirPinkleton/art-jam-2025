@@ -12,7 +12,7 @@ Aurora - Laserdream (https://laserdream.nekoweb.org/)
 Junior - RioBlitzle (https://bsky.app/profile/rioblitzle.bsky.social)
 Bingo - cass (minterim)
 Yogurt - Basil, nonexistentPumpkin (https://nonexistentpumpkin-blog.tumblr.com/)
-Dell-Vin (Narrator) - Teashades
+Dell-Vin (Narrator) - unsweetened_teashades (she/he) (https://bsky.app/profile/unsweet-teashades.bsky.social)
 Zora "Morph" Morphimus - Zora "Morph" Morphimus (https://morphimus.carrd.co/)
 
 Other Thanks:
@@ -43,9 +43,9 @@ Subtitles for ShotCut: https://www.youtube.com/watch?v=jHM5tBeTrYQ
 Secret Details for this video:
 - XX:XX homestuck discourse in the background
 - XX:XX big hippo, the GOAT
+- XX:XX the deltarune character doesn't actually get hurt, but does run away. They are LOST, and Junior can no longer have them as recruits.
 - XX:XX Junior loses one of their wrist bands
 - XX:XX Yogurt uses their clown ability to re-roll coin flips for a sleep affect
-- XX
 
 RNDEBUG todo: 
 * make sure bracelets and socks for junior are present when they should
@@ -60,4 +60,4 @@ RNDEBUG todo:
 * direction Junior swings saber sither sniper
 * sniper is hard to see against white sky
 
-* captions
+* Have Junior be more beat up in the later scenes
