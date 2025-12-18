@@ -3657,7 +3657,7 @@
     <entry producer="chain27" in="00:00:00.000" out="00:00:02.708"/>
     <entry producer="chain28" in="00:00:00.000" out="00:00:16.333"/>
     <entry producer="producer67" in="00:00:00.000" out="00:00:10.833"/>
-    <entry producer="producer68" in="00:00:00.000" out="00:00:03.958"/>
+    <entry producer="producer68" in="00:00:00.000" out="00:00:02.792"/>
   </playlist>
   <chain id="chain31" out="00:07:34.042">
     <property name="length">00:07:34.083</property>
@@ -6182,27 +6182,27 @@
     <property name="meta.media.progressive">1</property>
     <property name="shotcut:caption">EX-LYD &amp; Sunnexo - Hyper Link - 01 Hyper Link.mp3</property>
     <property name="xml">was here</property>
-    <filter id="filter71" in="00:04:26.208" out="00:04:29.083">
+    <filter id="filter71" in="00:04:26.208" out="00:04:29.250">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">-11.4</property>
+      <property name="level">00:00:01.792=-11.3;00:00:03.042=-20.5;00:00:03.083=-20.4986</property>
       <property name="mlt_service">volume</property>
     </filter>
-    <filter id="filter72" in="00:04:26.208" out="00:04:29.083">
+    <filter id="filter72" in="00:04:26.208" out="00:04:29.250">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">0</property>
       <property name="mlt_service">volume</property>
       <property name="disable">1</property>
     </filter>
-    <filter id="filter73" in="00:04:28.917" out="00:04:29.083">
+    <filter id="filter73" in="00:04:28.917" out="00:04:29.250">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">-11.4</property>
       <property name="mlt_service">volume</property>
       <property name="disable">1</property>
     </filter>
-    <filter id="filter74" in="00:04:28.917" out="00:04:29.083">
+    <filter id="filter74" in="00:04:28.917" out="00:04:29.250">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">0</property>
@@ -6210,7 +6210,56 @@
       <property name="disable">1</property>
     </filter>
   </chain>
-  <chain id="chain91" out="00:04:32.458">
+  <chain id="chain91" out="00:00:07.958">
+    <property name="length">00:00:08.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/emulating-the-end-part.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">independent</property>
+    <property name="meta.media.0.codec.name">pcm_s16le</property>
+    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+    <property name="meta.media.0.codec.bit_rate">1411200</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2025-12-18T00:49:08</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">83bc990056c5b026ccf070cc3639a93f</property>
+    <property name="shotcut:caption">emulating-the-end-part.wav</property>
+    <filter id="filter75" out="00:00:03.208">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">3.1</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <tractor id="tractor4" in="00:00:00.000" out="00:00:00.125">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="chain83" in="00:04:29.125" out="00:04:29.250"/>
+    <track producer="chain91" in="00:00:00.000" out="00:00:00.125"/>
+    <transition id="transition8" out="00:00:00.125">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+    </transition>
+    <transition id="transition9" out="00:00:00.125">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <chain id="chain92" out="00:04:32.458">
     <property name="length">00:04:32.500</property>
     <property name="eof">pause</property>
     <property name="resource">audio clips/EX-LYD &amp; Sunnexo - Hyper Link - 01 Hyper Link.mp3</property>
@@ -6269,13 +6318,13 @@
     <property name="meta.media.progressive">1</property>
     <property name="shotcut:caption">EX-LYD &amp; Sunnexo - Hyper Link - 01 Hyper Link.mp3</property>
     <property name="xml">was here</property>
-    <filter id="filter75" in="00:04:29.875" out="00:04:32.458">
+    <filter id="filter76" in="00:04:29.875" out="00:04:32.458">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">-11.4</property>
       <property name="mlt_service">volume</property>
     </filter>
-    <filter id="filter76" in="00:04:29.875" out="00:04:32.458">
+    <filter id="filter77" in="00:04:29.875" out="00:04:32.458">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">0</property>
@@ -6329,47 +6378,10 @@
     <entry producer="chain30" in="00:04:15.375" out="00:04:20.833"/>
     <entry producer="chain77" in="00:04:20.875" out="00:04:26.167"/>
     <entry producer="chain83" in="00:04:26.208" out="00:04:29.083"/>
-    <blank length="00:00:03.250"/>
-    <entry producer="chain91" in="00:04:29.875" out="00:04:32.458"/>
+    <entry producer="tractor4" in="00:00:00.000" out="00:00:00.125"/>
+    <entry producer="chain91" in="00:00:00.167" out="00:00:03.208"/>
+    <entry producer="chain92" in="00:04:29.875" out="00:04:32.458"/>
   </playlist>
-  <chain id="chain92" out="00:00:47.583">
-    <property name="length">00:00:47.625</property>
-    <property name="eof">pause</property>
-    <property name="resource">audio clips/riotous-yelling.wav</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="meta.media.nb_streams">1</property>
-    <property name="meta.media.0.stream.type">audio</property>
-    <property name="meta.media.0.codec.sample_fmt">s16</property>
-    <property name="meta.media.0.codec.sample_rate">44100</property>
-    <property name="meta.media.0.codec.channels">2</property>
-    <property name="meta.media.0.codec.layout">independent</property>
-    <property name="meta.media.0.codec.name">pcm_s16le</property>
-    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
-    <property name="meta.media.0.codec.bit_rate">1411200</property>
-    <property name="seekable">1</property>
-    <property name="audio_index">0</property>
-    <property name="video_index">-1</property>
-    <property name="creation_time">2025-12-14T19:01:46</property>
-    <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="shotcut:hash">201e497c124594f87cc2b4003485f060</property>
-    <property name="shotcut:caption">riotous-yelling.wav</property>
-    <property name="xml">was here</property>
-    <filter id="filter77" out="00:00:34.542">
-      <property name="window">75</property>
-      <property name="max_gain">20dB</property>
-      <property name="level">00:00:00.000=-60;00:00:02.042=0</property>
-      <property name="mlt_service">volume</property>
-      <property name="shotcut:filter">fadeInVolume</property>
-      <property name="shotcut:animIn">50</property>
-    </filter>
-    <filter id="filter78" out="00:00:34.542">
-      <property name="window">75</property>
-      <property name="max_gain">20dB</property>
-      <property name="level">-12.6</property>
-      <property name="mlt_service">volume</property>
-    </filter>
-  </chain>
   <chain id="chain93" out="00:00:47.583">
     <property name="length">00:00:47.625</property>
     <property name="eof">pause</property>
@@ -6393,100 +6405,57 @@
     <property name="shotcut:hash">201e497c124594f87cc2b4003485f060</property>
     <property name="shotcut:caption">riotous-yelling.wav</property>
     <property name="xml">was here</property>
-    <filter id="filter79" in="00:00:34.583" out="00:00:36.917">
+    <filter id="filter78" out="00:00:34.542">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-60;00:00:02.042=0</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="shotcut:animIn">50</property>
+    </filter>
+    <filter id="filter79" out="00:00:34.542">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-12.6</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <chain id="chain94" out="00:00:47.583">
+    <property name="length">00:00:47.625</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/riotous-yelling.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">independent</property>
+    <property name="meta.media.0.codec.name">pcm_s16le</property>
+    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+    <property name="meta.media.0.codec.bit_rate">1411200</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2025-12-14T19:01:46</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">201e497c124594f87cc2b4003485f060</property>
+    <property name="shotcut:caption">riotous-yelling.wav</property>
+    <property name="xml">was here</property>
+    <filter id="filter80" in="00:00:34.583" out="00:00:36.917">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">-11</property>
       <property name="mlt_service">volume</property>
     </filter>
-    <filter id="filter80" in="00:00:34.583" out="00:00:36.917">
+    <filter id="filter81" in="00:00:34.583" out="00:00:36.917">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">00:00:00.000j=0;00:00:02.333=-60</property>
       <property name="mlt_service">volume</property>
       <property name="shotcut:filter">fadeOutVolume</property>
       <property name="shotcut:animOut">57</property>
-    </filter>
-  </chain>
-  <chain id="chain94" out="00:04:32.458">
-    <property name="length">00:04:32.500</property>
-    <property name="eof">pause</property>
-    <property name="resource">audio clips/EX-LYD &amp; Sunnexo - Hyper Link - 01 Hyper Link.mp3</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="meta.media.nb_streams">2</property>
-    <property name="meta.media.0.stream.type">audio</property>
-    <property name="meta.media.0.codec.sample_fmt">fltp</property>
-    <property name="meta.media.0.codec.sample_rate">44100</property>
-    <property name="meta.media.0.codec.channels">2</property>
-    <property name="meta.media.0.codec.layout">stereo</property>
-    <property name="meta.media.0.codec.name">mp3float</property>
-    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
-    <property name="meta.media.0.codec.bit_rate">267683</property>
-    <property name="meta.attr.0.stream.encoder.markup">LAME3.99r</property>
-    <property name="meta.media.1.stream.type">video</property>
-    <property name="meta.media.1.stream.frame_rate">90000</property>
-    <property name="meta.media.1.stream.sample_aspect_ratio">0</property>
-    <property name="meta.media.1.codec.width">700</property>
-    <property name="meta.media.1.codec.height">700</property>
-    <property name="meta.media.1.codec.rotate">0</property>
-    <property name="meta.media.1.codec.pix_fmt">yuvj444p</property>
-    <property name="meta.media.1.codec.sample_aspect_ratio">1</property>
-    <property name="meta.media.1.codec.colorspace">601</property>
-    <property name="meta.media.1.codec.name">mjpeg</property>
-    <property name="meta.media.1.codec.long_name">MJPEG (Motion JPEG)</property>
-    <property name="meta.media.1.codec.bit_rate">0</property>
-    <property name="meta.attr.1.stream.title.markup">cover</property>
-    <property name="meta.attr.1.stream.comment.markup">Cover (front)</property>
-    <property name="meta.attr.title.markup">Hyper Link</property>
-    <property name="meta.attr.artist.markup">EX-LYD &amp; Sunnexo</property>
-    <property name="meta.attr.track.markup">1</property>
-    <property name="meta.attr.album.markup">Hyper Link</property>
-    <property name="meta.attr.comment.markup">Visit https://sunnexo.bandcamp.com</property>
-    <property name="meta.attr.album_artist.markup">EX-LYD &amp; Sunnexo</property>
-    <property name="meta.attr.date.markup">2024</property>
-    <property name="seekable">1</property>
-    <property name="meta.media.sample_aspect_num">72</property>
-    <property name="meta.media.sample_aspect_den">72</property>
-    <property name="audio_index">0</property>
-    <property name="video_index">1</property>
-    <property name="creation_time">2025-12-13T22:23:15</property>
-    <property name="vstream">0</property>
-    <property name="meta.media.frame_rate_num">90000</property>
-    <property name="meta.media.frame_rate_den">1</property>
-    <property name="meta.media.colorspace">601</property>
-    <property name="meta.media.color_trc">2</property>
-    <property name="meta.media.has_b_frames">0</property>
-    <property name="meta.media.width">700</property>
-    <property name="meta.media.height">700</property>
-    <property name="meta.media.aspect_ratio">1</property>
-    <property name="meta.media.color_range">full</property>
-    <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="shotcut:hash">f9ae17ca6c0f4efd02ec2fbb31124928</property>
-    <property name="meta.media.top_field_first">0</property>
-    <property name="meta.media.progressive">1</property>
-    <property name="shotcut:caption">EX-LYD &amp; Sunnexo - Hyper Link - 01 Hyper Link.mp3</property>
-    <property name="xml">was here</property>
-    <filter id="filter81" in="00:00:25.958" out="00:00:34.500">
-      <property name="window">75</property>
-      <property name="max_gain">20dB</property>
-      <property name="level">00:00:00.000=-60;00:00:04.625=0</property>
-      <property name="mlt_service">volume</property>
-      <property name="shotcut:filter">fadeInVolume</property>
-      <property name="shotcut:animIn">112</property>
-    </filter>
-    <filter id="filter82" in="00:00:25.958" out="00:00:34.500">
-      <property name="window">75</property>
-      <property name="max_gain">20dB</property>
-      <property name="level">-11.8</property>
-      <property name="mlt_service">volume</property>
-    </filter>
-    <filter id="filter83" in="00:00:34.708" out="00:00:34.500">
-      <property name="window">75</property>
-      <property name="max_gain">20dB</property>
-      <property name="level">0</property>
-      <property name="mlt_service">volume</property>
-      <property name="disable">1</property>
     </filter>
   </chain>
   <chain id="chain95" out="00:04:32.458">
@@ -6548,13 +6517,21 @@
     <property name="meta.media.progressive">1</property>
     <property name="shotcut:caption">EX-LYD &amp; Sunnexo - Hyper Link - 01 Hyper Link.mp3</property>
     <property name="xml">was here</property>
-    <filter id="filter84" in="00:00:37.458" out="00:00:45.583">
+    <filter id="filter82" in="00:00:25.958" out="00:00:34.500">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">-11.4</property>
+      <property name="level">00:00:00.000=-60;00:00:04.625=0</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="shotcut:animIn">112</property>
+    </filter>
+    <filter id="filter83" in="00:00:25.958" out="00:00:34.500">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-11.8</property>
       <property name="mlt_service">volume</property>
     </filter>
-    <filter id="filter85" in="00:00:37.458" out="00:00:45.583">
+    <filter id="filter84" in="00:00:34.708" out="00:00:34.500">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">0</property>
@@ -6562,26 +6539,6 @@
       <property name="disable">1</property>
     </filter>
   </chain>
-  <tractor id="tractor4" in="00:00:00.000" out="00:00:00.250">
-    <property name="shotcut:transition">lumaMix</property>
-    <track producer="chain94" in="00:00:34.250" out="00:00:34.500"/>
-    <track producer="chain95" in="00:00:37.458" out="00:00:37.708"/>
-    <transition id="transition8" out="00:00:00.250">
-      <property name="a_track">0</property>
-      <property name="b_track">1</property>
-      <property name="factory">loader</property>
-      <property name="mlt_service">luma</property>
-      <property name="alpha_over">1</property>
-      <property name="fix_background_alpha">1</property>
-    </transition>
-    <transition id="transition9" out="00:00:00.250">
-      <property name="a_track">0</property>
-      <property name="b_track">1</property>
-      <property name="mlt_service">mix</property>
-      <property name="start">-1</property>
-      <property name="accepts_blanks">1</property>
-    </transition>
-  </tractor>
   <chain id="chain96" out="00:04:32.458">
     <property name="length">00:04:32.500</property>
     <property name="eof">pause</property>
@@ -6641,13 +6598,13 @@
     <property name="meta.media.progressive">1</property>
     <property name="shotcut:caption">EX-LYD &amp; Sunnexo - Hyper Link - 01 Hyper Link.mp3</property>
     <property name="xml">was here</property>
-    <filter id="filter91" in="00:00:56.833" out="00:01:02.083">
+    <filter id="filter85" in="00:00:37.458" out="00:00:45.583">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">-13.8</property>
+      <property name="level">-11.4</property>
       <property name="mlt_service">volume</property>
     </filter>
-    <filter id="filter92" in="00:00:56.833" out="00:01:02.083">
+    <filter id="filter91" in="00:00:37.458" out="00:00:45.583">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">0</property>
@@ -6655,6 +6612,26 @@
       <property name="disable">1</property>
     </filter>
   </chain>
+  <tractor id="tractor5" in="00:00:00.000" out="00:00:00.250">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="chain95" in="00:00:34.250" out="00:00:34.500"/>
+    <track producer="chain96" in="00:00:37.458" out="00:00:37.708"/>
+    <transition id="transition10" out="00:00:00.250">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+    </transition>
+    <transition id="transition11" out="00:00:00.250">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
   <chain id="chain97" out="00:04:32.458">
     <property name="length">00:04:32.500</property>
     <property name="eof">pause</property>
@@ -6714,13 +6691,13 @@
     <property name="meta.media.progressive">1</property>
     <property name="shotcut:caption">EX-LYD &amp; Sunnexo - Hyper Link - 01 Hyper Link.mp3</property>
     <property name="xml">was here</property>
-    <filter id="filter93" in="00:01:02.125" out="00:01:05.875">
+    <filter id="filter92" in="00:00:56.833" out="00:01:02.083">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">-8.1</property>
+      <property name="level">-13.8</property>
       <property name="mlt_service">volume</property>
     </filter>
-    <filter id="filter94" in="00:01:02.125" out="00:01:05.875">
+    <filter id="filter93" in="00:00:56.833" out="00:01:02.083">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">0</property>
@@ -6787,13 +6764,13 @@
     <property name="meta.media.progressive">1</property>
     <property name="shotcut:caption">EX-LYD &amp; Sunnexo - Hyper Link - 01 Hyper Link.mp3</property>
     <property name="xml">was here</property>
-    <filter id="filter95" in="00:01:02.083" out="00:04:32.458">
+    <filter id="filter94" in="00:01:02.125" out="00:01:05.875">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">-8.1</property>
       <property name="mlt_service">volume</property>
     </filter>
-    <filter id="filter96" in="00:01:02.083" out="00:04:32.458">
+    <filter id="filter95" in="00:01:02.125" out="00:01:05.875">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">0</property>
@@ -6860,7 +6837,80 @@
     <property name="meta.media.progressive">1</property>
     <property name="shotcut:caption">EX-LYD &amp; Sunnexo - Hyper Link - 01 Hyper Link.mp3</property>
     <property name="xml">was here</property>
-    <filter id="filter97" in="00:01:01.833" out="00:04:32.458">
+    <filter id="filter96" in="00:01:02.083" out="00:04:32.458">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-8.1</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+    <filter id="filter97" in="00:01:02.083" out="00:04:32.458">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">0</property>
+      <property name="mlt_service">volume</property>
+      <property name="disable">1</property>
+    </filter>
+  </chain>
+  <chain id="chain100" out="00:04:32.458">
+    <property name="length">00:04:32.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">audio clips/EX-LYD &amp; Sunnexo - Hyper Link - 01 Hyper Link.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">2</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">stereo</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">267683</property>
+    <property name="meta.attr.0.stream.encoder.markup">LAME3.99r</property>
+    <property name="meta.media.1.stream.type">video</property>
+    <property name="meta.media.1.stream.frame_rate">90000</property>
+    <property name="meta.media.1.stream.sample_aspect_ratio">0</property>
+    <property name="meta.media.1.codec.width">700</property>
+    <property name="meta.media.1.codec.height">700</property>
+    <property name="meta.media.1.codec.rotate">0</property>
+    <property name="meta.media.1.codec.pix_fmt">yuvj444p</property>
+    <property name="meta.media.1.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.1.codec.colorspace">601</property>
+    <property name="meta.media.1.codec.name">mjpeg</property>
+    <property name="meta.media.1.codec.long_name">MJPEG (Motion JPEG)</property>
+    <property name="meta.media.1.codec.bit_rate">0</property>
+    <property name="meta.attr.1.stream.title.markup">cover</property>
+    <property name="meta.attr.1.stream.comment.markup">Cover (front)</property>
+    <property name="meta.attr.title.markup">Hyper Link</property>
+    <property name="meta.attr.artist.markup">EX-LYD &amp; Sunnexo</property>
+    <property name="meta.attr.track.markup">1</property>
+    <property name="meta.attr.album.markup">Hyper Link</property>
+    <property name="meta.attr.comment.markup">Visit https://sunnexo.bandcamp.com</property>
+    <property name="meta.attr.album_artist.markup">EX-LYD &amp; Sunnexo</property>
+    <property name="meta.attr.date.markup">2024</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">72</property>
+    <property name="meta.media.sample_aspect_den">72</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="creation_time">2025-12-13T22:23:15</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">90000</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">601</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">700</property>
+    <property name="meta.media.height">700</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">full</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">f9ae17ca6c0f4efd02ec2fbb31124928</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="shotcut:caption">EX-LYD &amp; Sunnexo - Hyper Link - 01 Hyper Link.mp3</property>
+    <property name="xml">was here</property>
+    <filter id="filter98" in="00:01:01.833" out="00:04:32.458">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">-8.1</property>
@@ -6868,20 +6918,20 @@
       <property name="shotcut:animIn">0</property>
       <property name="shotcut:animOut">0</property>
     </filter>
-    <filter id="filter98" in="00:01:01.833" out="00:01:02.042">
+    <filter id="filter99" in="00:01:01.833" out="00:01:02.042">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">0</property>
       <property name="mlt_service">volume</property>
       <property name="disable">1</property>
     </filter>
-    <filter id="filter99" in="00:01:02.083" out="00:01:02.042">
+    <filter id="filter100" in="00:01:02.083" out="00:01:02.042">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">-8.1</property>
       <property name="mlt_service">volume</property>
     </filter>
-    <filter id="filter100" in="00:01:02.083" out="00:01:02.042">
+    <filter id="filter101" in="00:01:02.083" out="00:01:02.042">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">0</property>
@@ -6893,17 +6943,17 @@
     <property name="shotcut:audio">1</property>
     <property name="shotcut:name">A3</property>
     <blank length="00:00:49.542"/>
-    <entry producer="chain92" in="00:00:00.000" out="00:00:34.542"/>
-    <entry producer="chain93" in="00:00:34.583" out="00:00:36.917"/>
+    <entry producer="chain93" in="00:00:00.000" out="00:00:34.542"/>
+    <entry producer="chain94" in="00:00:34.583" out="00:00:36.917"/>
     <blank length="00:00:10.875"/>
-    <entry producer="chain94" in="00:00:25.958" out="00:00:34.208"/>
-    <entry producer="tractor4" in="00:00:00.000" out="00:00:00.250"/>
-    <entry producer="chain95" in="00:00:37.750" out="00:00:45.583"/>
-    <entry producer="chain96" in="00:00:56.833" out="00:01:02.083"/>
-    <entry producer="chain97" in="00:01:02.125" out="00:01:05.875"/>
+    <entry producer="chain95" in="00:00:25.958" out="00:00:34.208"/>
+    <entry producer="tractor5" in="00:00:00.000" out="00:00:00.250"/>
+    <entry producer="chain96" in="00:00:37.750" out="00:00:45.583"/>
+    <entry producer="chain97" in="00:00:56.833" out="00:01:02.083"/>
+    <entry producer="chain98" in="00:01:02.125" out="00:01:05.875"/>
     <blank length="00:03:26.583"/>
-    <entry producer="chain98" in="00:01:02.083" out="00:04:32.458"/>
-    <entry producer="chain99" in="00:01:01.833" out="00:01:02.042"/>
+    <entry producer="chain99" in="00:01:02.083" out="00:04:32.458"/>
+    <entry producer="chain100" in="00:01:01.833" out="00:01:02.042"/>
   </playlist>
   <producer id="producer69" in="00:00:00.000" out="03:59:59.958">
     <property name="length">04:00:00.000</property>
@@ -6922,7 +6972,7 @@
     <property name="shotcut:hash">28deb09d7dcc34422f4517ff8535ed13</property>
     <property name="shotcut:caption">3.1character-intros-junior4.png</property>
     <property name="xml">was here</property>
-    <filter id="filter101" out="00:00:02.750">
+    <filter id="filter102" out="00:00:02.750">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -6931,7 +6981,7 @@
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
   </producer>
-  <chain id="chain100" out="00:00:05.958">
+  <chain id="chain101" out="00:00:05.958">
     <property name="length">00:00:06.000</property>
     <property name="eof">pause</property>
     <property name="resource">rendered animations/9.1JuniorTired.mkv</property>
@@ -6974,7 +7024,7 @@
     <property name="meta.media.progressive">1</property>
     <property name="shotcut:caption">9.1JuniorTired.mkv</property>
     <property name="xml">was here</property>
-    <filter id="filter102" out="00:00:05.958">
+    <filter id="filter103" out="00:00:05.958">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -7030,7 +7080,7 @@
     <property name="meta.media.color_range">mpeg</property>
     <property name="meta.media.top_field_first">0</property>
     <property name="meta.media.progressive">1</property>
-    <filter id="filter103" out="00:00:10.625">
+    <filter id="filter104" out="00:00:10.625">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -7038,7 +7088,7 @@
       <property name="alpha">00:00:00.000=0;00:00:00.958=1</property>
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
-    <filter id="filter104" out="00:00:10.625">
+    <filter id="filter105" out="00:00:10.625">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -7047,7 +7097,7 @@
       <property name="shotcut:animOut">17</property>
     </filter>
   </producer>
-  <chain id="chain101" out="00:00:16.958">
+  <chain id="chain102" out="00:00:16.958">
     <property name="length">00:00:17.000</property>
     <property name="eof">pause</property>
     <property name="resource">rendered animations/11peptalk.mkv</property>
@@ -7090,7 +7140,7 @@
     <property name="meta.media.progressive">1</property>
     <property name="shotcut:caption">11peptalk.mkv</property>
     <property name="xml">was here</property>
-    <filter id="filter105" out="00:00:16.958">
+    <filter id="filter106" out="00:00:16.958">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -7117,7 +7167,7 @@
     <property name="shotcut:caption">17nowstandrealcool.png</property>
     <property name="meta.shotcut.vui">1</property>
     <property name="xml">was here</property>
-    <filter id="filter106" out="00:00:02.792">
+    <filter id="filter107" out="00:00:08.083">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -7125,46 +7175,14 @@
       <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
       <property name="shotcut:animIn">00:00:01.042</property>
     </filter>
-    <filter id="filter107" out="00:00:02.792">
+    <filter id="filter108" out="00:00:08.083">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
       <property name="transition.fix_rotate_x">0</property>
       <property name="transition.fill">1</property>
       <property name="transition.distort">0</property>
-      <property name="transition.rect">00:00:00.000=-578.311 -7.33868 3072 1728 1;00:00:02.792=-92.5329 -0.837881 2112 1188 1</property>
-      <property name="transition.valign">middle</property>
-      <property name="transition.halign">center</property>
-      <property name="shotcut:animIn">00:00:00.000</property>
-      <property name="shotcut:animOut">00:00:00.000</property>
-      <property name="transition.threads">0</property>
-    </filter>
-  </producer>
-  <producer id="producer72" in="00:00:00.000" out="03:59:59.958">
-    <property name="length">04:00:00.000</property>
-    <property name="eof">pause</property>
-    <property name="resource">rendered animations/17nowstandrealcool.png</property>
-    <property name="ttl">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="meta.media.progressive">1</property>
-    <property name="seekable">1</property>
-    <property name="format">2</property>
-    <property name="meta.media.width">1920</property>
-    <property name="meta.media.height">1080</property>
-    <property name="mlt_service">qimage</property>
-    <property name="creation_time">2025-12-16T02:18:26</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="shotcut:hash">304817ba0a603c5634263d773a4f955a</property>
-    <property name="shotcut:caption">17nowstandrealcool.png</property>
-    <property name="meta.shotcut.vui">1</property>
-    <filter id="filter108" in="00:00:02.917" out="00:00:08.042">
-      <property name="background">color:#00000000</property>
-      <property name="mlt_service">affine</property>
-      <property name="shotcut:filter">affineSizePosition</property>
-      <property name="transition.fix_rotate_x">0</property>
-      <property name="transition.fill">1</property>
-      <property name="transition.distort">0</property>
-      <property name="transition.rect">00:00:00.000=-96 -54 2112 1188 1;00:00:05.250=0 0 1920 1080 1</property>
+      <property name="transition.rect">00:00:00.000=-578.311 -7.33868 3072 1728 1;00:00:02.792=-92.5329 -0.837881 2112 1188 1;00:00:08.708=3.46709 53.1621 1920 1080 1</property>
       <property name="transition.valign">middle</property>
       <property name="transition.halign">center</property>
       <property name="shotcut:animIn">00:00:00.000</property>
@@ -7178,14 +7196,13 @@
     <blank length="00:01:19.583"/>
     <entry producer="producer69" in="00:00:00.000" out="00:00:02.750"/>
     <blank length="00:01:19.667"/>
-    <entry producer="chain100" in="00:00:00.000" out="00:00:05.958"/>
+    <entry producer="chain101" in="00:00:00.000" out="00:00:05.958"/>
     <entry producer="producer70" in="00:00:00.000" out="00:00:10.625"/>
-    <entry producer="chain101" in="00:00:00.000" out="00:00:16.958"/>
+    <entry producer="chain102" in="00:00:00.000" out="00:00:16.958"/>
     <blank length="00:01:19.667"/>
-    <entry producer="producer71" in="00:00:00.000" out="00:00:02.792"/>
-    <entry producer="producer72" in="00:00:02.917" out="00:00:08.042"/>
+    <entry producer="producer71" in="00:00:00.000" out="00:00:08.083"/>
   </playlist>
-  <tractor id="tractor5" title="Shotcut version 25.01.25" in="00:00:00.000" out="00:09:00.125">
+  <tractor id="tractor6" title="Shotcut version 25.01.25" in="00:00:00.000" out="00:09:00.125">
     <property name="shotcut">1</property>
     <property name="shotcut:scaleFactor">5.27802</property>
     <property name="shotcut:projectAudioChannels">2</property>
@@ -7295,14 +7312,14 @@
     <track producer="playlist2" hide="video"/>
     <track producer="playlist3" hide="video"/>
     <track producer="playlist4"/>
-    <transition id="transition10">
+    <transition id="transition12">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="mlt_service">mix</property>
       <property name="always_active">1</property>
       <property name="sum">1</property>
     </transition>
-    <transition id="transition11">
+    <transition id="transition13">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="version">0.1</property>
@@ -7310,35 +7327,35 @@
       <property name="threads">0</property>
       <property name="disable">1</property>
     </transition>
-    <transition id="transition12">
+    <transition id="transition14">
       <property name="a_track">0</property>
       <property name="b_track">2</property>
       <property name="mlt_service">mix</property>
       <property name="always_active">1</property>
       <property name="sum">1</property>
     </transition>
-    <transition id="transition13">
+    <transition id="transition15">
       <property name="a_track">0</property>
       <property name="b_track">3</property>
       <property name="mlt_service">mix</property>
       <property name="always_active">1</property>
       <property name="sum">1</property>
     </transition>
-    <transition id="transition14">
+    <transition id="transition16">
       <property name="a_track">0</property>
       <property name="b_track">4</property>
       <property name="mlt_service">mix</property>
       <property name="always_active">1</property>
       <property name="sum">1</property>
     </transition>
-    <transition id="transition15">
+    <transition id="transition17">
       <property name="a_track">0</property>
       <property name="b_track">5</property>
       <property name="mlt_service">mix</property>
       <property name="always_active">1</property>
       <property name="sum">1</property>
     </transition>
-    <transition id="transition16">
+    <transition id="transition18">
       <property name="a_track">1</property>
       <property name="b_track">5</property>
       <property name="version">0.1</property>
