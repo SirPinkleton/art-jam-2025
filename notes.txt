@@ -56,9 +56,3 @@ RNDEBUG todo:
 * Add more baby accoutremants to the cloaked characters
 * Find more opportunities for cute little detailsr
 * If there's time, replace all copy-paste art with your own
-
-* fix credits for teashades
-
-
-* Have Junior be more beat up in the later scenes
-
