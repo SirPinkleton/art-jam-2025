@@ -46,13 +46,8 @@ Secret Details for this video:
 - XX:XX the deltarune character doesn't actually get hurt, but does run away. They are LOST, and Junior can no longer have them as recruits.
 - XX:XX Junior loses one of their wrist bands
 - XX:XX Yogurt uses their clown ability to re-roll coin flips for a sleep affect
+- all character cards (that is, summoned beings that aren't real people) have a thick colored outline. Junior, having amalgamated with Darth Vader, has a rougher version of this when in radiant fury mode
 
 RNDEBUG todo: 
-* make sure bracelets and socks for junior are present when they should
-* make sure yogurts hand tufts, feet grey spots, hand windows, are present
-* make sure all character cards have a colored outline
-* make sure yogurt's colors are specifically burgundy and forest green
-* Add more background characters
 * Add more baby accoutremants to the cloaked characters
-* Find more opportunities for cute little detailsr
 * If there's time, replace all copy-paste art with your own
