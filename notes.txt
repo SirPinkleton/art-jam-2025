@@ -57,7 +57,8 @@ RNDEBUG todo:
 * Find more opportunities for cute little detailsr
 * If there's time, replace all copy-paste art with your own
 
-* direction Junior swings saber sither sniper
-* sniper is hard to see against white sky
+* fix credits for teashades
+
 
 * Have Junior be more beat up in the later scenes
+
